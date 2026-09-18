@@ -1,0 +1,8 @@
+requests
+rapidfuzz
+pydub
+streamlit
+anthropic
+python-dateutil
+python-dotenv
+pytest
