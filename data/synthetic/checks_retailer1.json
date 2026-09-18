@@ -1,0 +1,210 @@
+{
+  "retailer_id": "RTL_001",
+  "retailer_name": "Aurora Energy",
+  "checks": [
+    {
+      "check_id": "CHK_A_DISCLAIMER",
+      "version": 1,
+      "type": "A",
+      "description": "Recording disclaimer read",
+      "is_critical": true,
+      "weight": 3.0,
+      "effective_from": "2025-01-01",
+      "effective_to": null,
+      "expected_script_text": "This call is being recorded for quality and compliance purposes.",
+      "pass_at": 0.85,
+      "fail_at": 0.6,
+      "min_word_confidence": 0.55
+    },
+    {
+      "check_id": "CHK_A_ACCOUNT_HOLDER",
+      "version": 1,
+      "type": "A",
+      "description": "Account holder confirmed",
+      "is_critical": true,
+      "weight": 3.0,
+      "effective_from": "2025-01-01",
+      "effective_to": null,
+      "expected_script_text": "Can I confirm I'm speaking with the account holder listed on the bill?",
+      "pass_at": 0.85,
+      "fail_at": 0.6,
+      "min_word_confidence": 0.55
+    },
+    {
+      "check_id": "CHK_A_DMO",
+      "version": 1,
+      "type": "A",
+      "description": "DMO reference price read verbatim",
+      "is_critical": true,
+      "weight": 3.0,
+      "effective_from": "2025-01-01",
+      "effective_to": "2026-07-01",
+      "expected_script_text": "Just so you know, we'll compare this plan's cost to the government benchmark price for energy in your area.",
+      "pass_at": 0.85,
+      "fail_at": 0.6,
+      "min_word_confidence": 0.55,
+      "provenance": {
+        "expected_script_text": "drafted \u2014 CIMET did not supply v1 wording"
+      }
+    },
+    {
+      "check_id": "CHK_A_DMO",
+      "version": 2,
+      "type": "A",
+      "description": "DMO reference price read verbatim",
+      "is_critical": true,
+      "weight": 3.0,
+      "effective_from": "2026-07-01",
+      "effective_to": null,
+      "expected_script_text": "This plan's estimated annual cost is compared against the Default Market Offer set by the Australian Energy Regulator for your distribution zone.",
+      "pass_at": 0.85,
+      "fail_at": 0.6,
+      "min_word_confidence": 0.55
+    },
+    {
+      "check_id": "CHK_A_COOLING_OFF",
+      "version": 1,
+      "type": "A",
+      "description": "Cooling-off rights stated",
+      "is_critical": true,
+      "weight": 3.0,
+      "effective_from": "2025-01-01",
+      "effective_to": null,
+      "expected_script_text": "You have a ten business day cooling-off period during which you can cancel this agreement at no cost.",
+      "pass_at": 0.85,
+      "fail_at": 0.6,
+      "min_word_confidence": 0.55
+    },
+    {
+      "check_id": "CHK_A_TERMS",
+      "version": 1,
+      "type": "A",
+      "description": "T&Cs delivery explained",
+      "is_critical": false,
+      "weight": 1.0,
+      "effective_from": "2025-01-01",
+      "effective_to": null,
+      "expected_script_text": "We'll email you the full terms and conditions along with your welcome pack.",
+      "pass_at": 0.85,
+      "fail_at": 0.6,
+      "min_word_confidence": 0.55
+    },
+    {
+      "check_id": "CHK_B_PEAK_RATE",
+      "version": 1,
+      "type": "B",
+      "description": "Peak rate quoted matches plan",
+      "is_critical": true,
+      "weight": 3.0,
+      "effective_from": "2025-01-01",
+      "effective_to": null,
+      "plan_field": "peak_rate_c_per_kwh",
+      "comparator": "rate",
+      "tolerance": 0.05
+    },
+    {
+      "check_id": "CHK_B_DAILY_SUPPLY",
+      "version": 1,
+      "type": "B",
+      "description": "Daily supply charge matches plan",
+      "is_critical": true,
+      "weight": 3.0,
+      "effective_from": "2025-01-01",
+      "effective_to": null,
+      "plan_field": "daily_supply_c",
+      "comparator": "rate",
+      "tolerance": 0.05
+    },
+    {
+      "check_id": "CHK_B_EMAIL",
+      "version": 1,
+      "type": "B",
+      "description": "Email read back matches CRM",
+      "is_critical": true,
+      "weight": 3.0,
+      "effective_from": "2025-01-01",
+      "effective_to": null,
+      "crm_field": "email",
+      "comparator": "email",
+      "tolerance": 0.0
+    },
+    {
+      "check_id": "CHK_B_ADDRESS",
+      "version": 1,
+      "type": "B",
+      "description": "Supply address matches CRM",
+      "is_critical": true,
+      "weight": 3.0,
+      "effective_from": "2025-01-01",
+      "effective_to": null,
+      "crm_field": "supply_address",
+      "comparator": "address",
+      "tolerance": 0.0
+    },
+    {
+      "check_id": "CHK_B_DOB",
+      "version": 1,
+      "type": "B",
+      "description": "DOB confirmed matches CRM",
+      "is_critical": true,
+      "weight": 3.0,
+      "effective_from": "2025-01-01",
+      "effective_to": null,
+      "crm_field": "dob",
+      "comparator": "date",
+      "tolerance": 0.0
+    },
+    {
+      "check_id": "CHK_B_NMI",
+      "version": 1,
+      "type": "B",
+      "description": "NMI confirmed matches CRM",
+      "is_critical": true,
+      "weight": 3.0,
+      "effective_from": "2025-01-01",
+      "effective_to": null,
+      "crm_field": "nmi",
+      "comparator": "text",
+      "tolerance": 0.0
+    },
+    {
+      "check_id": "CHK_C_DEAD_AIR",
+      "version": 1,
+      "type": "C",
+      "description": "No dead air over 30s",
+      "is_critical": false,
+      "weight": 1.0,
+      "effective_from": "2025-01-01",
+      "effective_to": null,
+      "params": {
+        "max_dead_air_s": 30
+      }
+    },
+    {
+      "check_id": "CHK_C_INTERRUPTIONS",
+      "version": 1,
+      "type": "C",
+      "description": "Agent interruptions under 5",
+      "is_critical": false,
+      "weight": 1.0,
+      "effective_from": "2025-01-01",
+      "effective_to": null,
+      "params": {
+        "max_interruptions": 5
+      }
+    },
+    {
+      "check_id": "CHK_C_TALK_RATIO",
+      "version": 1,
+      "type": "C",
+      "description": "Agent talk ratio under 75%",
+      "is_critical": false,
+      "weight": 1.0,
+      "effective_from": "2025-01-01",
+      "effective_to": null,
+      "params": {
+        "max_agent_talk_ratio": 0.75
+      }
+    }
+  ]
+}

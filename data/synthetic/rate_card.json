@@ -1,0 +1,30 @@
+[
+  {
+    "plan_id": "PLAN_A",
+    "name": "Aurora Saver",
+    "peak_rate_c_per_kwh": 31.9,
+    "daily_supply_c": 98.5,
+    "discount_pct": 0
+  },
+  {
+    "plan_id": "PLAN_B",
+    "name": "Aurora Flex",
+    "peak_rate_c_per_kwh": 28.6,
+    "daily_supply_c": 104.2,
+    "discount_pct": 5
+  },
+  {
+    "plan_id": "PLAN_C",
+    "name": "Aurora Green",
+    "peak_rate_c_per_kwh": 34.1,
+    "daily_supply_c": 96.0,
+    "discount_pct": 0
+  },
+  {
+    "plan_id": "PLAN_D",
+    "name": "Aurora Fixed 12",
+    "peak_rate_c_per_kwh": 30.2,
+    "daily_supply_c": 101.7,
+    "discount_pct": 3
+  }
+]

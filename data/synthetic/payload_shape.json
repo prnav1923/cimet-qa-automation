@@ -1,0 +1,26 @@
+{
+  "lead_id": "LEAD_3613790",
+  "retailer_id": "RTL_001",
+  "scored_at": "2026-09-19T14:02:11Z",
+  "gate_status": "HELD",
+  "score_with_fatals": 0.0,
+  "score_without_fatals": 0.82,
+  "check_library_version": "2026-07-01",
+  "results": [
+    {
+      "check_id": "CHK_B_PEAK_RATE",
+      "check_version": 1,
+      "status": "FAIL",
+      "confidence": 0.94,
+      "is_critical": true,
+      "evidence": {
+        "transcript_line": "so your peak usage rate on this plan works out to twenty eight point six cents per kilowatt hour",
+        "start_ts": 40.0,
+        "end_ts": 46.5,
+        "asr_confidence": 0.91
+      },
+      "expected": "31.9",
+      "actual": "28.6"
+    }
+  ]
+}

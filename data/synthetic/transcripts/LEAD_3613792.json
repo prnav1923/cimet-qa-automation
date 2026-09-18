@@ -1,0 +1,3114 @@
+{
+  "lead_id": "LEAD_3613792",
+  "source": "synthetic",
+  "has_word_timings": true,
+  "has_speakers": true,
+  "audio_duration": 158.0,
+  "turns": [
+    {
+      "speaker": "AGENT",
+      "text": "Hi there, thanks for holding, how are you doing today?",
+      "start": 0.0,
+      "end": 4.434,
+      "confidence": 0.944,
+      "words": [
+        {
+          "text": "hi",
+          "punctuated": "Hi",
+          "start": 0.0,
+          "end": 0.207,
+          "confidence": 0.95,
+          "speaker": 0,
+          "speaker_confidence": 0.35
+        },
+        {
+          "text": "there",
+          "punctuated": "there,",
+          "start": 0.293,
+          "end": 0.748,
+          "confidence": 0.93,
+          "speaker": 0,
+          "speaker_confidence": 0.46
+        },
+        {
+          "text": "thanks",
+          "punctuated": "thanks",
+          "start": 0.83,
+          "end": 1.296,
+          "confidence": 0.96,
+          "speaker": 0,
+          "speaker_confidence": 0.31
+        },
+        {
+          "text": "for",
+          "punctuated": "for",
+          "start": 1.335,
+          "end": 1.673,
+          "confidence": 0.92,
+          "speaker": 0,
+          "speaker_confidence": 0.54
+        },
+        {
+          "text": "holding",
+          "punctuated": "holding,",
+          "start": 1.723,
+          "end": 2.237,
+          "confidence": 0.94,
+          "speaker": 0,
+          "speaker_confidence": 0.34
+        },
+        {
+          "text": "how",
+          "punctuated": "how",
+          "start": 2.317,
+          "end": 2.736,
+          "confidence": 0.95,
+          "speaker": 0,
+          "speaker_confidence": 0.32
+        },
+        {
+          "text": "are",
+          "punctuated": "are",
+          "start": 2.767,
+          "end": 3.151,
+          "confidence": 0.96,
+          "speaker": 0,
+          "speaker_confidence": 0.37
+        },
+        {
+          "text": "you",
+          "punctuated": "you",
+          "start": 3.206,
+          "end": 3.46,
+          "confidence": 0.96,
+          "speaker": 0,
+          "speaker_confidence": 0.36
+        },
+        {
+          "text": "doing",
+          "punctuated": "doing",
+          "start": 3.55,
+          "end": 3.91,
+          "confidence": 0.93,
+          "speaker": 0,
+          "speaker_confidence": 0.36
+        },
+        {
+          "text": "today",
+          "punctuated": "today?",
+          "start": 3.988,
+          "end": 4.434,
+          "confidence": 0.94,
+          "speaker": 0,
+          "speaker_confidence": 0.52
+        }
+      ]
+    },
+    {
+      "speaker": "CUSTOMER",
+      "text": "Yeah not bad thanks, bit busy but good.",
+      "start": 5.094,
+      "end": 8.265,
+      "confidence": 0.935,
+      "words": [
+        {
+          "text": "yeah",
+          "punctuated": "Yeah",
+          "start": 5.094,
+          "end": 5.47,
+          "confidence": 0.92,
+          "speaker": 1,
+          "speaker_confidence": 0.37
+        },
+        {
+          "text": "not",
+          "punctuated": "not",
+          "start": 5.524,
+          "end": 5.921,
+          "confidence": 0.97,
+          "speaker": 1,
+          "speaker_confidence": 0.54
+        },
+        {
+          "text": "bad",
+          "punctuated": "bad",
+          "start": 5.997,
+          "end": 6.405,
+          "confidence": 0.94,
+          "speaker": 1,
+          "speaker_confidence": 0.49
+        },
+        {
+          "text": "thanks",
+          "punctuated": "thanks,",
+          "start": 6.446,
+          "end": 6.77,
+          "confidence": 0.94,
+          "speaker": 1,
+          "speaker_confidence": 0.38
+        },
+        {
+          "text": "bit",
+          "punctuated": "bit",
+          "start": 6.839,
+          "end": 7.234,
+          "confidence": 0.96,
+          "speaker": 1,
+          "speaker_confidence": 0.33
+        },
+        {
+          "text": "busy",
+          "punctuated": "busy",
+          "start": 7.332,
+          "end": 7.565,
+          "confidence": 0.91,
+          "speaker": 1,
+          "speaker_confidence": 0.32
+        },
+        {
+          "text": "but",
+          "punctuated": "but",
+          "start": 7.66,
+          "end": 7.987,
+          "confidence": 0.91,
+          "speaker": 1,
+          "speaker_confidence": 0.35
+        },
+        {
+          "text": "good",
+          "punctuated": "good.",
+          "start": 8.023,
+          "end": 8.265,
+          "confidence": 0.93,
+          "speaker": 1,
+          "speaker_confidence": 0.58
+        }
+      ]
+    },
+    {
+      "speaker": "AGENT",
+      "text": "This call is being recorded for quality and compliance purposes.",
+      "start": 9.055,
+      "end": 13.86,
+      "confidence": 0.938,
+      "words": [
+        {
+          "text": "this",
+          "punctuated": "This",
+          "start": 9.055,
+          "end": 9.472,
+          "confidence": 0.95,
+          "speaker": 0,
+          "speaker_confidence": 0.56
+        },
+        {
+          "text": "call",
+          "punctuated": "call",
+          "start": 9.559,
+          "end": 9.957,
+          "confidence": 0.94,
+          "speaker": 0,
+          "speaker_confidence": 0.34
+        },
+        {
+          "text": "is",
+          "punctuated": "is",
+          "start": 10.033,
+          "end": 10.438,
+          "confidence": 0.93,
+          "speaker": 0,
+          "speaker_confidence": 0.29
+        },
+        {
+          "text": "being",
+          "punctuated": "being",
+          "start": 10.51,
+          "end": 10.894,
+          "confidence": 0.92,
+          "speaker": 0,
+          "speaker_confidence": 0.33
+        },
+        {
+          "text": "recorded",
+          "punctuated": "recorded",
+          "start": 10.927,
+          "end": 11.293,
+          "confidence": 0.9,
+          "speaker": 0,
+          "speaker_confidence": 0.33
+        },
+        {
+          "text": "for",
+          "punctuated": "for",
+          "start": 11.393,
+          "end": 11.81,
+          "confidence": 0.93,
+          "speaker": 0,
+          "speaker_confidence": 0.4
+        },
+        {
+          "text": "quality",
+          "punctuated": "quality",
+          "start": 11.881,
+          "end": 12.302,
+          "confidence": 0.97,
+          "speaker": 0,
+          "speaker_confidence": 0.3
+        },
+        {
+          "text": "and",
+          "punctuated": "and",
+          "start": 12.338,
+          "end": 12.626,
+          "confidence": 0.97,
+          "speaker": 0,
+          "speaker_confidence": 0.55
+        },
+        {
+          "text": "compliance",
+          "punctuated": "compliance",
+          "start": 12.68,
+          "end": 13.27,
+          "confidence": 0.92,
+          "speaker": 0,
+          "speaker_confidence": 0.46
+        },
+        {
+          "text": "purposes",
+          "punctuated": "purposes.",
+          "start": 13.314,
+          "end": 13.86,
+          "confidence": 0.95,
+          "speaker": 0,
+          "speaker_confidence": 0.36
+        }
+      ]
+    },
+    {
+      "speaker": "AGENT",
+      "text": "Good to hear. So I'm just calling about the energy plan you enquired about.",
+      "start": 14.382,
+      "end": 20.716,
+      "confidence": 0.961,
+      "words": [
+        {
+          "text": "good",
+          "punctuated": "Good",
+          "start": 14.382,
+          "end": 14.633,
+          "confidence": 0.93,
+          "speaker": 0,
+          "speaker_confidence": 0.56
+        },
+        {
+          "text": "to",
+          "punctuated": "to",
+          "start": 14.719,
+          "end": 15.164,
+          "confidence": 0.98,
+          "speaker": 0,
+          "speaker_confidence": 0.52
+        },
+        {
+          "text": "hear",
+          "punctuated": "hear.",
+          "start": 15.234,
+          "end": 15.646,
+          "confidence": 0.99,
+          "speaker": 0,
+          "speaker_confidence": 0.45
+        },
+        {
+          "text": "so",
+          "punctuated": "So",
+          "start": 15.73,
+          "end": 16.123,
+          "confidence": 0.99,
+          "speaker": 0,
+          "speaker_confidence": 0.42
+        },
+        {
+          "text": "i'm",
+          "punctuated": "I'm",
+          "start": 16.185,
+          "end": 16.552,
+          "confidence": 0.9,
+          "speaker": 0,
+          "speaker_confidence": 0.31
+        },
+        {
+          "text": "just",
+          "punctuated": "just",
+          "start": 16.587,
+          "end": 16.984,
+          "confidence": 0.99,
+          "speaker": 0,
+          "speaker_confidence": 0.48
+        },
+        {
+          "text": "calling",
+          "punctuated": "calling",
+          "start": 17.03,
+          "end": 17.398,
+          "confidence": 0.99,
+          "speaker": 0,
+          "speaker_confidence": 0.43
+        },
+        {
+          "text": "about",
+          "punctuated": "about",
+          "start": 17.429,
+          "end": 17.895,
+          "confidence": 0.92,
+          "speaker": 0,
+          "speaker_confidence": 0.31
+        },
+        {
+          "text": "the",
+          "punctuated": "the",
+          "start": 17.972,
+          "end": 18.399,
+          "confidence": 0.91,
+          "speaker": 0,
+          "speaker_confidence": 0.56
+        },
+        {
+          "text": "energy",
+          "punctuated": "energy",
+          "start": 18.462,
+          "end": 18.822,
+          "confidence": 0.98,
+          "speaker": 0,
+          "speaker_confidence": 0.36
+        },
+        {
+          "text": "plan",
+          "punctuated": "plan",
+          "start": 18.918,
+          "end": 19.328,
+          "confidence": 0.98,
+          "speaker": 0,
+          "speaker_confidence": 0.43
+        },
+        {
+          "text": "you",
+          "punctuated": "you",
+          "start": 19.372,
+          "end": 19.777,
+          "confidence": 0.98,
+          "speaker": 0,
+          "speaker_confidence": 0.34
+        },
+        {
+          "text": "enquired",
+          "punctuated": "enquired",
+          "start": 19.821,
+          "end": 20.19,
+          "confidence": 0.96,
+          "speaker": 0,
+          "speaker_confidence": 0.33
+        },
+        {
+          "text": "about",
+          "punctuated": "about.",
+          "start": 20.227,
+          "end": 20.716,
+          "confidence": 0.96,
+          "speaker": 0,
+          "speaker_confidence": 0.48
+        }
+      ]
+    },
+    {
+      "speaker": "CUSTOMER",
+      "text": "Oh right, yeah, go ahead.",
+      "start": 21.7,
+      "end": 23.703,
+      "confidence": 0.956,
+      "words": [
+        {
+          "text": "oh",
+          "punctuated": "Oh",
+          "start": 21.7,
+          "end": 22.037,
+          "confidence": 0.9,
+          "speaker": 1,
+          "speaker_confidence": 0.42
+        },
+        {
+          "text": "right",
+          "punctuated": "right,",
+          "start": 22.11,
+          "end": 22.488,
+          "confidence": 0.99,
+          "speaker": 1,
+          "speaker_confidence": 0.55
+        },
+        {
+          "text": "yeah",
+          "punctuated": "yeah,",
+          "start": 22.579,
+          "end": 22.939,
+          "confidence": 0.99,
+          "speaker": 1,
+          "speaker_confidence": 0.55
+        },
+        {
+          "text": "go",
+          "punctuated": "go",
+          "start": 22.989,
+          "end": 23.243,
+          "confidence": 0.95,
+          "speaker": 1,
+          "speaker_confidence": 0.3
+        },
+        {
+          "text": "ahead",
+          "punctuated": "ahead.",
+          "start": 23.329,
+          "end": 23.703,
+          "confidence": 0.95,
+          "speaker": 1,
+          "speaker_confidence": 0.43
+        }
+      ]
+    },
+    {
+      "speaker": "AGENT",
+      "text": "Uh, sorry, one sec, let me just pull up your details here.",
+      "start": 24.61,
+      "end": 29.57,
+      "confidence": 0.943,
+      "words": [
+        {
+          "text": "uh",
+          "punctuated": "Uh,",
+          "start": 24.61,
+          "end": 24.851,
+          "confidence": 0.99,
+          "speaker": 0,
+          "speaker_confidence": 0.49
+        },
+        {
+          "text": "sorry",
+          "punctuated": "sorry,",
+          "start": 24.913,
+          "end": 25.342,
+          "confidence": 0.9,
+          "speaker": 0,
+          "speaker_confidence": 0.34
+        },
+        {
+          "text": "one",
+          "punctuated": "one",
+          "start": 25.413,
+          "end": 25.712,
+          "confidence": 0.96,
+          "speaker": 0,
+          "speaker_confidence": 0.36
+        },
+        {
+          "text": "sec",
+          "punctuated": "sec,",
+          "start": 25.78,
+          "end": 26.056,
+          "confidence": 0.94,
+          "speaker": 0,
+          "speaker_confidence": 0.46
+        },
+        {
+          "text": "let",
+          "punctuated": "let",
+          "start": 26.112,
+          "end": 26.456,
+          "confidence": 0.92,
+          "speaker": 0,
+          "speaker_confidence": 0.49
+        },
+        {
+          "text": "me",
+          "punctuated": "me",
+          "start": 26.512,
+          "end": 26.93,
+          "confidence": 0.93,
+          "speaker": 0,
+          "speaker_confidence": 0.33
+        },
+        {
+          "text": "just",
+          "punctuated": "just",
+          "start": 26.969,
+          "end": 27.351,
+          "confidence": 0.92,
+          "speaker": 0,
+          "speaker_confidence": 0.31
+        },
+        {
+          "text": "pull",
+          "punctuated": "pull",
+          "start": 27.4,
+          "end": 27.693,
+          "confidence": 0.94,
+          "speaker": 0,
+          "speaker_confidence": 0.39
+        },
+        {
+          "text": "up",
+          "punctuated": "up",
+          "start": 27.733,
+          "end": 28.178,
+          "confidence": 0.91,
+          "speaker": 0,
+          "speaker_confidence": 0.52
+        },
+        {
+          "text": "your",
+          "punctuated": "your",
+          "start": 28.22,
+          "end": 28.582,
+          "confidence": 0.99,
+          "speaker": 0,
+          "speaker_confidence": 0.53
+        },
+        {
+          "text": "details",
+          "punctuated": "details",
+          "start": 28.648,
+          "end": 29.121,
+          "confidence": 0.97,
+          "speaker": 0,
+          "speaker_confidence": 0.37
+        },
+        {
+          "text": "here",
+          "punctuated": "here.",
+          "start": 29.19,
+          "end": 29.57,
+          "confidence": 0.94,
+          "speaker": 0,
+          "speaker_confidence": 0.49
+        }
+      ]
+    },
+    {
+      "speaker": "CUSTOMER",
+      "text": "No worries, take your time.",
+      "start": 30.555,
+      "end": 32.451,
+      "confidence": 0.94,
+      "words": [
+        {
+          "text": "no",
+          "punctuated": "No",
+          "start": 30.555,
+          "end": 30.875,
+          "confidence": 0.96,
+          "speaker": 1,
+          "speaker_confidence": 0.41
+        },
+        {
+          "text": "worries",
+          "punctuated": "worries,",
+          "start": 30.928,
+          "end": 31.308,
+          "confidence": 0.95,
+          "speaker": 1,
+          "speaker_confidence": 0.56
+        },
+        {
+          "text": "take",
+          "punctuated": "take",
+          "start": 31.356,
+          "end": 31.593,
+          "confidence": 0.91,
+          "speaker": 1,
+          "speaker_confidence": 0.54
+        },
+        {
+          "text": "your",
+          "punctuated": "your",
+          "start": 31.69,
+          "end": 31.974,
+          "confidence": 0.95,
+          "speaker": 1,
+          "speaker_confidence": 0.47
+        },
+        {
+          "text": "time",
+          "punctuated": "time.",
+          "start": 32.016,
+          "end": 32.451,
+          "confidence": 0.93,
+          "speaker": 1,
+          "speaker_confidence": 0.48
+        }
+      ]
+    },
+    {
+      "speaker": "AGENT",
+      "text": "Okay, got it, thanks for bearing with me.",
+      "start": 33.404,
+      "end": 36.744,
+      "confidence": 0.939,
+      "words": [
+        {
+          "text": "okay",
+          "punctuated": "Okay,",
+          "start": 33.404,
+          "end": 33.867,
+          "confidence": 0.93,
+          "speaker": 0,
+          "speaker_confidence": 0.37
+        },
+        {
+          "text": "got",
+          "punctuated": "got",
+          "start": 33.941,
+          "end": 34.193,
+          "confidence": 0.92,
+          "speaker": 0,
+          "speaker_confidence": 0.52
+        },
+        {
+          "text": "it",
+          "punctuated": "it,",
+          "start": 34.247,
+          "end": 34.607,
+          "confidence": 0.95,
+          "speaker": 0,
+          "speaker_confidence": 0.53
+        },
+        {
+          "text": "thanks",
+          "punctuated": "thanks",
+          "start": 34.642,
+          "end": 34.952,
+          "confidence": 0.92,
+          "speaker": 0,
+          "speaker_confidence": 0.38
+        },
+        {
+          "text": "for",
+          "punctuated": "for",
+          "start": 35.002,
+          "end": 35.286,
+          "confidence": 0.96,
+          "speaker": 0,
+          "speaker_confidence": 0.36
+        },
+        {
+          "text": "bearing",
+          "punctuated": "bearing",
+          "start": 35.347,
+          "end": 35.857,
+          "confidence": 0.93,
+          "speaker": 0,
+          "speaker_confidence": 0.46
+        },
+        {
+          "text": "with",
+          "punctuated": "with",
+          "start": 35.955,
+          "end": 36.295,
+          "confidence": 0.92,
+          "speaker": 0,
+          "speaker_confidence": 0.29
+        },
+        {
+          "text": "me",
+          "punctuated": "me.",
+          "start": 36.376,
+          "end": 36.744,
+          "confidence": 0.98,
+          "speaker": 0,
+          "speaker_confidence": 0.49
+        }
+      ]
+    },
+    {
+      "speaker": "CUSTOMER",
+      "text": "That's alright.",
+      "start": 37.214,
+      "end": 37.87,
+      "confidence": 0.925,
+      "words": [
+        {
+          "text": "that's",
+          "punctuated": "That's",
+          "start": 37.214,
+          "end": 37.509,
+          "confidence": 0.91,
+          "speaker": 1,
+          "speaker_confidence": 0.54
+        },
+        {
+          "text": "alright",
+          "punctuated": "alright.",
+          "start": 37.577,
+          "end": 37.87,
+          "confidence": 0.94,
+          "speaker": 1,
+          "speaker_confidence": 0.51
+        }
+      ]
+    },
+    {
+      "speaker": "AGENT",
+      "text": "Can I confirm I'm speaking with the account holder listed on the bill?",
+      "start": 38.416,
+      "end": 43.314,
+      "confidence": 0.944,
+      "words": [
+        {
+          "text": "can",
+          "punctuated": "Can",
+          "start": 38.416,
+          "end": 38.67,
+          "confidence": 0.96,
+          "speaker": 0,
+          "speaker_confidence": 0.55
+        },
+        {
+          "text": "i",
+          "punctuated": "I",
+          "start": 38.722,
+          "end": 38.964,
+          "confidence": 0.93,
+          "speaker": 0,
+          "speaker_confidence": 0.47
+        },
+        {
+          "text": "confirm",
+          "punctuated": "confirm",
+          "start": 39.003,
+          "end": 39.507,
+          "confidence": 0.9,
+          "speaker": 0,
+          "speaker_confidence": 0.48
+        },
+        {
+          "text": "i'm",
+          "punctuated": "I'm",
+          "start": 39.597,
+          "end": 39.896,
+          "confidence": 0.94,
+          "speaker": 0,
+          "speaker_confidence": 0.57
+        },
+        {
+          "text": "speaking",
+          "punctuated": "speaking",
+          "start": 39.964,
+          "end": 40.339,
+          "confidence": 0.94,
+          "speaker": 0,
+          "speaker_confidence": 0.57
+        },
+        {
+          "text": "with",
+          "punctuated": "with",
+          "start": 40.418,
+          "end": 40.696,
+          "confidence": 0.95,
+          "speaker": 0,
+          "speaker_confidence": 0.47
+        },
+        {
+          "text": "the",
+          "punctuated": "the",
+          "start": 40.771,
+          "end": 41.132,
+          "confidence": 0.95,
+          "speaker": 0,
+          "speaker_confidence": 0.47
+        },
+        {
+          "text": "account",
+          "punctuated": "account",
+          "start": 41.184,
+          "end": 41.56,
+          "confidence": 0.95,
+          "speaker": 0,
+          "speaker_confidence": 0.52
+        },
+        {
+          "text": "holder",
+          "punctuated": "holder",
+          "start": 41.621,
+          "end": 41.984,
+          "confidence": 0.92,
+          "speaker": 0,
+          "speaker_confidence": 0.37
+        },
+        {
+          "text": "listed",
+          "punctuated": "listed",
+          "start": 42.014,
+          "end": 42.494,
+          "confidence": 0.98,
+          "speaker": 0,
+          "speaker_confidence": 0.38
+        },
+        {
+          "text": "on",
+          "punctuated": "on",
+          "start": 42.557,
+          "end": 42.755,
+          "confidence": 0.98,
+          "speaker": 0,
+          "speaker_confidence": 0.56
+        },
+        {
+          "text": "the",
+          "punctuated": "the",
+          "start": 42.818,
+          "end": 43.034,
+          "confidence": 0.94,
+          "speaker": 0,
+          "speaker_confidence": 0.37
+        },
+        {
+          "text": "bill",
+          "punctuated": "bill?",
+          "start": 43.08,
+          "end": 43.314,
+          "confidence": 0.93,
+          "speaker": 0,
+          "speaker_confidence": 0.4
+        }
+      ]
+    },
+    {
+      "speaker": "CUSTOMER",
+      "text": "Yep, that's me.",
+      "start": 43.88,
+      "end": 45.045,
+      "confidence": 0.96,
+      "words": [
+        {
+          "text": "yep",
+          "punctuated": "Yep,",
+          "start": 43.88,
+          "end": 44.136,
+          "confidence": 0.97,
+          "speaker": 1,
+          "speaker_confidence": 0.4
+        },
+        {
+          "text": "that's",
+          "punctuated": "that's",
+          "start": 44.192,
+          "end": 44.528,
+          "confidence": 0.94,
+          "speaker": 1,
+          "speaker_confidence": 0.35
+        },
+        {
+          "text": "me",
+          "punctuated": "me.",
+          "start": 44.612,
+          "end": 45.045,
+          "confidence": 0.97,
+          "speaker": 1,
+          "speaker_confidence": 0.49
+        }
+      ]
+    },
+    {
+      "speaker": "AGENT",
+      "text": "Can you confirm the supply address for me?",
+      "start": 45.989,
+      "end": 49.613,
+      "confidence": 0.946,
+      "words": [
+        {
+          "text": "can",
+          "punctuated": "Can",
+          "start": 45.989,
+          "end": 46.413,
+          "confidence": 0.94,
+          "speaker": 0,
+          "speaker_confidence": 0.54
+        },
+        {
+          "text": "you",
+          "punctuated": "you",
+          "start": 46.456,
+          "end": 46.745,
+          "confidence": 0.96,
+          "speaker": 0,
+          "speaker_confidence": 0.47
+        },
+        {
+          "text": "confirm",
+          "punctuated": "confirm",
+          "start": 46.794,
+          "end": 47.242,
+          "confidence": 0.92,
+          "speaker": 0,
+          "speaker_confidence": 0.29
+        },
+        {
+          "text": "the",
+          "punctuated": "the",
+          "start": 47.275,
+          "end": 47.628,
+          "confidence": 0.92,
+          "speaker": 0,
+          "speaker_confidence": 0.31
+        },
+        {
+          "text": "supply",
+          "punctuated": "supply",
+          "start": 47.677,
+          "end": 48.131,
+          "confidence": 0.97,
+          "speaker": 0,
+          "speaker_confidence": 0.35
+        },
+        {
+          "text": "address",
+          "punctuated": "address",
+          "start": 48.172,
+          "end": 48.586,
+          "confidence": 0.93,
+          "speaker": 0,
+          "speaker_confidence": 0.37
+        },
+        {
+          "text": "for",
+          "punctuated": "for",
+          "start": 48.672,
+          "end": 49.145,
+          "confidence": 0.94,
+          "speaker": 0,
+          "speaker_confidence": 0.52
+        },
+        {
+          "text": "me",
+          "punctuated": "me?",
+          "start": 49.198,
+          "end": 49.613,
+          "confidence": 0.99,
+          "speaker": 0,
+          "speaker_confidence": 0.3
+        }
+      ]
+    },
+    {
+      "speaker": "CUSTOMER",
+      "text": "Three King William Road, Adelaide, South Australia, 5000.",
+      "start": 50.054,
+      "end": 53.874,
+      "confidence": 0.935,
+      "words": [
+        {
+          "text": "three",
+          "punctuated": "Three",
+          "start": 50.054,
+          "end": 50.426,
+          "confidence": 0.92,
+          "speaker": 1,
+          "speaker_confidence": 0.53
+        },
+        {
+          "text": "king",
+          "punctuated": "King",
+          "start": 50.513,
+          "end": 50.96,
+          "confidence": 0.91,
+          "speaker": 1,
+          "speaker_confidence": 0.51
+        },
+        {
+          "text": "william",
+          "punctuated": "William",
+          "start": 51.007,
+          "end": 51.494,
+          "confidence": 0.94,
+          "speaker": 1,
+          "speaker_confidence": 0.5
+        },
+        {
+          "text": "road",
+          "punctuated": "Road,",
+          "start": 51.526,
+          "end": 51.878,
+          "confidence": 0.97,
+          "speaker": 1,
+          "speaker_confidence": 0.44
+        },
+        {
+          "text": "adelaide",
+          "punctuated": "Adelaide,",
+          "start": 51.977,
+          "end": 52.404,
+          "confidence": 0.96,
+          "speaker": 1,
+          "speaker_confidence": 0.37
+        },
+        {
+          "text": "south",
+          "punctuated": "South",
+          "start": 52.457,
+          "end": 52.871,
+          "confidence": 0.9,
+          "speaker": 1,
+          "speaker_confidence": 0.56
+        },
+        {
+          "text": "australia",
+          "punctuated": "Australia,",
+          "start": 52.937,
+          "end": 53.325,
+          "confidence": 0.96,
+          "speaker": 1,
+          "speaker_confidence": 0.34
+        },
+        {
+          "text": "5000",
+          "punctuated": "5000.",
+          "start": 53.417,
+          "end": 53.874,
+          "confidence": 0.92,
+          "speaker": 1,
+          "speaker_confidence": 0.31
+        }
+      ]
+    },
+    {
+      "speaker": "AGENT",
+      "text": "And just for security, can I get your date of birth?",
+      "start": 54.443,
+      "end": 59.049,
+      "confidence": 0.931,
+      "words": [
+        {
+          "text": "and",
+          "punctuated": "And",
+          "start": 54.443,
+          "end": 54.701,
+          "confidence": 0.92,
+          "speaker": 0,
+          "speaker_confidence": 0.32
+        },
+        {
+          "text": "just",
+          "punctuated": "just",
+          "start": 54.786,
+          "end": 55.02,
+          "confidence": 0.9,
+          "speaker": 0,
+          "speaker_confidence": 0.52
+        },
+        {
+          "text": "for",
+          "punctuated": "for",
+          "start": 55.083,
+          "end": 55.452,
+          "confidence": 0.93,
+          "speaker": 0,
+          "speaker_confidence": 0.31
+        },
+        {
+          "text": "security",
+          "punctuated": "security,",
+          "start": 55.493,
+          "end": 55.821,
+          "confidence": 0.96,
+          "speaker": 0,
+          "speaker_confidence": 0.56
+        },
+        {
+          "text": "can",
+          "punctuated": "can",
+          "start": 55.921,
+          "end": 56.298,
+          "confidence": 0.91,
+          "speaker": 0,
+          "speaker_confidence": 0.47
+        },
+        {
+          "text": "i",
+          "punctuated": "I",
+          "start": 56.377,
+          "end": 56.761,
+          "confidence": 0.91,
+          "speaker": 0,
+          "speaker_confidence": 0.35
+        },
+        {
+          "text": "get",
+          "punctuated": "get",
+          "start": 56.86,
+          "end": 57.279,
+          "confidence": 0.97,
+          "speaker": 0,
+          "speaker_confidence": 0.52
+        },
+        {
+          "text": "your",
+          "punctuated": "your",
+          "start": 57.34,
+          "end": 57.622,
+          "confidence": 0.96,
+          "speaker": 0,
+          "speaker_confidence": 0.39
+        },
+        {
+          "text": "date",
+          "punctuated": "date",
+          "start": 57.661,
+          "end": 58.127,
+          "confidence": 0.94,
+          "speaker": 0,
+          "speaker_confidence": 0.41
+        },
+        {
+          "text": "of",
+          "punctuated": "of",
+          "start": 58.178,
+          "end": 58.555,
+          "confidence": 0.92,
+          "speaker": 0,
+          "speaker_confidence": 0.34
+        },
+        {
+          "text": "birth",
+          "punctuated": "birth?",
+          "start": 58.609,
+          "end": 59.049,
+          "confidence": 0.92,
+          "speaker": 0,
+          "speaker_confidence": 0.53
+        }
+      ]
+    },
+    {
+      "speaker": "CUSTOMER",
+      "text": "The eighth of August, nineteen eighty eight.",
+      "start": 59.887,
+      "end": 62.638,
+      "confidence": 0.923,
+      "words": [
+        {
+          "text": "the",
+          "punctuated": "The",
+          "start": 59.887,
+          "end": 60.119,
+          "confidence": 0.91,
+          "speaker": 1,
+          "speaker_confidence": 0.37
+        },
+        {
+          "text": "eighth",
+          "punctuated": "eighth",
+          "start": 60.167,
+          "end": 60.53,
+          "confidence": 0.9,
+          "speaker": 1,
+          "speaker_confidence": 0.47
+        },
+        {
+          "text": "of",
+          "punctuated": "of",
+          "start": 60.587,
+          "end": 60.831,
+          "confidence": 0.9,
+          "speaker": 1,
+          "speaker_confidence": 0.54
+        },
+        {
+          "text": "august",
+          "punctuated": "August,",
+          "start": 60.915,
+          "end": 61.245,
+          "confidence": 0.96,
+          "speaker": 1,
+          "speaker_confidence": 0.48
+        },
+        {
+          "text": "nineteen",
+          "punctuated": "nineteen",
+          "start": 61.313,
+          "end": 61.718,
+          "confidence": 0.95,
+          "speaker": 1,
+          "speaker_confidence": 0.43
+        },
+        {
+          "text": "eighty",
+          "punctuated": "eighty",
+          "start": 61.787,
+          "end": 62.214,
+          "confidence": 0.93,
+          "speaker": 1,
+          "speaker_confidence": 0.47
+        },
+        {
+          "text": "eight",
+          "punctuated": "eight.",
+          "start": 62.252,
+          "end": 62.638,
+          "confidence": 0.91,
+          "speaker": 1,
+          "speaker_confidence": 0.53
+        }
+      ]
+    },
+    {
+      "speaker": "AGENT",
+      "text": "Great, and I've got your NMI here as well, just confirming that's correct.",
+      "start": 63.501,
+      "end": 69.051,
+      "confidence": 0.945,
+      "words": [
+        {
+          "text": "great",
+          "punctuated": "Great,",
+          "start": 63.501,
+          "end": 63.804,
+          "confidence": 0.94,
+          "speaker": 0,
+          "speaker_confidence": 0.31
+        },
+        {
+          "text": "and",
+          "punctuated": "and",
+          "start": 63.874,
+          "end": 64.305,
+          "confidence": 0.96,
+          "speaker": 0,
+          "speaker_confidence": 0.44
+        },
+        {
+          "text": "i've",
+          "punctuated": "I've",
+          "start": 64.384,
+          "end": 64.683,
+          "confidence": 0.93,
+          "speaker": 0,
+          "speaker_confidence": 0.46
+        },
+        {
+          "text": "got",
+          "punctuated": "got",
+          "start": 64.718,
+          "end": 65.174,
+          "confidence": 0.92,
+          "speaker": 0,
+          "speaker_confidence": 0.43
+        },
+        {
+          "text": "your",
+          "punctuated": "your",
+          "start": 65.266,
+          "end": 65.519,
+          "confidence": 0.97,
+          "speaker": 0,
+          "speaker_confidence": 0.3
+        },
+        {
+          "text": "nmi",
+          "punctuated": "NMI",
+          "start": 65.588,
+          "end": 66.046,
+          "confidence": 0.94,
+          "speaker": 0,
+          "speaker_confidence": 0.39
+        },
+        {
+          "text": "here",
+          "punctuated": "here",
+          "start": 66.126,
+          "end": 66.572,
+          "confidence": 0.92,
+          "speaker": 0,
+          "speaker_confidence": 0.29
+        },
+        {
+          "text": "as",
+          "punctuated": "as",
+          "start": 66.607,
+          "end": 66.882,
+          "confidence": 0.99,
+          "speaker": 0,
+          "speaker_confidence": 0.57
+        },
+        {
+          "text": "well",
+          "punctuated": "well,",
+          "start": 66.919,
+          "end": 67.34,
+          "confidence": 0.95,
+          "speaker": 0,
+          "speaker_confidence": 0.34
+        },
+        {
+          "text": "just",
+          "punctuated": "just",
+          "start": 67.407,
+          "end": 67.704,
+          "confidence": 0.96,
+          "speaker": 0,
+          "speaker_confidence": 0.33
+        },
+        {
+          "text": "confirming",
+          "punctuated": "confirming",
+          "start": 67.786,
+          "end": 68.234,
+          "confidence": 0.91,
+          "speaker": 0,
+          "speaker_confidence": 0.47
+        },
+        {
+          "text": "that's",
+          "punctuated": "that's",
+          "start": 68.289,
+          "end": 68.676,
+          "confidence": 0.96,
+          "speaker": 0,
+          "speaker_confidence": 0.54
+        },
+        {
+          "text": "correct",
+          "punctuated": "correct.",
+          "start": 68.718,
+          "end": 69.051,
+          "confidence": 0.94,
+          "speaker": 0,
+          "speaker_confidence": 0.38
+        }
+      ]
+    },
+    {
+      "speaker": "CUSTOMER",
+      "text": "2003322110",
+      "start": 70.191,
+      "end": 70.646,
+      "confidence": 0.93,
+      "words": [
+        {
+          "text": "2003322110",
+          "punctuated": "2003322110",
+          "start": 70.191,
+          "end": 70.646,
+          "confidence": 0.93,
+          "speaker": 1,
+          "speaker_confidence": 0.37
+        }
+      ]
+    },
+    {
+      "speaker": "AGENT",
+      "text": "So looking at your usage, we reckon this plan would suit you pretty well.",
+      "start": 71.24,
+      "end": 77.471,
+      "confidence": 0.944,
+      "words": [
+        {
+          "text": "so",
+          "punctuated": "So",
+          "start": 71.24,
+          "end": 71.533,
+          "confidence": 0.97,
+          "speaker": 0,
+          "speaker_confidence": 0.41
+        },
+        {
+          "text": "looking",
+          "punctuated": "looking",
+          "start": 71.614,
+          "end": 72.058,
+          "confidence": 0.95,
+          "speaker": 0,
+          "speaker_confidence": 0.34
+        },
+        {
+          "text": "at",
+          "punctuated": "at",
+          "start": 72.142,
+          "end": 72.579,
+          "confidence": 0.92,
+          "speaker": 0,
+          "speaker_confidence": 0.57
+        },
+        {
+          "text": "your",
+          "punctuated": "your",
+          "start": 72.64,
+          "end": 72.975,
+          "confidence": 0.97,
+          "speaker": 0,
+          "speaker_confidence": 0.57
+        },
+        {
+          "text": "usage",
+          "punctuated": "usage,",
+          "start": 73.047,
+          "end": 73.432,
+          "confidence": 0.99,
+          "speaker": 0,
+          "speaker_confidence": 0.37
+        },
+        {
+          "text": "we",
+          "punctuated": "we",
+          "start": 73.483,
+          "end": 73.737,
+          "confidence": 0.98,
+          "speaker": 0,
+          "speaker_confidence": 0.29
+        },
+        {
+          "text": "reckon",
+          "punctuated": "reckon",
+          "start": 73.825,
+          "end": 74.272,
+          "confidence": 0.92,
+          "speaker": 0,
+          "speaker_confidence": 0.45
+        },
+        {
+          "text": "this",
+          "punctuated": "this",
+          "start": 74.341,
+          "end": 74.814,
+          "confidence": 0.91,
+          "speaker": 0,
+          "speaker_confidence": 0.29
+        },
+        {
+          "text": "plan",
+          "punctuated": "plan",
+          "start": 74.869,
+          "end": 75.137,
+          "confidence": 0.93,
+          "speaker": 0,
+          "speaker_confidence": 0.45
+        },
+        {
+          "text": "would",
+          "punctuated": "would",
+          "start": 75.183,
+          "end": 75.644,
+          "confidence": 0.91,
+          "speaker": 0,
+          "speaker_confidence": 0.4
+        },
+        {
+          "text": "suit",
+          "punctuated": "suit",
+          "start": 75.738,
+          "end": 76.161,
+          "confidence": 0.97,
+          "speaker": 0,
+          "speaker_confidence": 0.52
+        },
+        {
+          "text": "you",
+          "punctuated": "you",
+          "start": 76.203,
+          "end": 76.632,
+          "confidence": 0.96,
+          "speaker": 0,
+          "speaker_confidence": 0.45
+        },
+        {
+          "text": "pretty",
+          "punctuated": "pretty",
+          "start": 76.726,
+          "end": 77.149,
+          "confidence": 0.93,
+          "speaker": 0,
+          "speaker_confidence": 0.5
+        },
+        {
+          "text": "well",
+          "punctuated": "well.",
+          "start": 77.219,
+          "end": 77.471,
+          "confidence": 0.91,
+          "speaker": 0,
+          "speaker_confidence": 0.51
+        }
+      ]
+    },
+    {
+      "speaker": "CUSTOMER",
+      "text": "Okay sounds good.",
+      "start": 78.479,
+      "end": 79.718,
+      "confidence": 0.953,
+      "words": [
+        {
+          "text": "okay",
+          "punctuated": "Okay",
+          "start": 78.479,
+          "end": 78.819,
+          "confidence": 0.98,
+          "speaker": 1,
+          "speaker_confidence": 0.54
+        },
+        {
+          "text": "sounds",
+          "punctuated": "sounds",
+          "start": 78.865,
+          "end": 79.303,
+          "confidence": 0.95,
+          "speaker": 1,
+          "speaker_confidence": 0.28
+        },
+        {
+          "text": "good",
+          "punctuated": "good.",
+          "start": 79.387,
+          "end": 79.718,
+          "confidence": 0.93,
+          "speaker": 1,
+          "speaker_confidence": 0.29
+        }
+      ]
+    },
+    {
+      "speaker": "AGENT",
+      "text": "Great, so let me just run through a few details with you first.",
+      "start": 80.206,
+      "end": 84.815,
+      "confidence": 0.947,
+      "words": [
+        {
+          "text": "great",
+          "punctuated": "Great,",
+          "start": 80.206,
+          "end": 80.587,
+          "confidence": 0.92,
+          "speaker": 0,
+          "speaker_confidence": 0.3
+        },
+        {
+          "text": "so",
+          "punctuated": "so",
+          "start": 80.668,
+          "end": 80.966,
+          "confidence": 0.94,
+          "speaker": 0,
+          "speaker_confidence": 0.46
+        },
+        {
+          "text": "let",
+          "punctuated": "let",
+          "start": 81.031,
+          "end": 81.303,
+          "confidence": 0.93,
+          "speaker": 0,
+          "speaker_confidence": 0.4
+        },
+        {
+          "text": "me",
+          "punctuated": "me",
+          "start": 81.342,
+          "end": 81.559,
+          "confidence": 0.95,
+          "speaker": 0,
+          "speaker_confidence": 0.29
+        },
+        {
+          "text": "just",
+          "punctuated": "just",
+          "start": 81.617,
+          "end": 81.871,
+          "confidence": 0.95,
+          "speaker": 0,
+          "speaker_confidence": 0.51
+        },
+        {
+          "text": "run",
+          "punctuated": "run",
+          "start": 81.91,
+          "end": 82.159,
+          "confidence": 0.95,
+          "speaker": 0,
+          "speaker_confidence": 0.43
+        },
+        {
+          "text": "through",
+          "punctuated": "through",
+          "start": 82.235,
+          "end": 82.572,
+          "confidence": 0.96,
+          "speaker": 0,
+          "speaker_confidence": 0.5
+        },
+        {
+          "text": "a",
+          "punctuated": "a",
+          "start": 82.619,
+          "end": 82.816,
+          "confidence": 0.97,
+          "speaker": 0,
+          "speaker_confidence": 0.38
+        },
+        {
+          "text": "few",
+          "punctuated": "few",
+          "start": 82.911,
+          "end": 83.148,
+          "confidence": 0.96,
+          "speaker": 0,
+          "speaker_confidence": 0.41
+        },
+        {
+          "text": "details",
+          "punctuated": "details",
+          "start": 83.202,
+          "end": 83.571,
+          "confidence": 0.95,
+          "speaker": 0,
+          "speaker_confidence": 0.29
+        },
+        {
+          "text": "with",
+          "punctuated": "with",
+          "start": 83.622,
+          "end": 84.111,
+          "confidence": 0.96,
+          "speaker": 0,
+          "speaker_confidence": 0.58
+        },
+        {
+          "text": "you",
+          "punctuated": "you",
+          "start": 84.172,
+          "end": 84.424,
+          "confidence": 0.9,
+          "speaker": 0,
+          "speaker_confidence": 0.53
+        },
+        {
+          "text": "first",
+          "punctuated": "first.",
+          "start": 84.468,
+          "end": 84.815,
+          "confidence": 0.97,
+          "speaker": 0,
+          "speaker_confidence": 0.54
+        }
+      ]
+    },
+    {
+      "speaker": "AGENT",
+      "text": "This plan's yearly cost is checked against that Default Market Offer thing set by the regulator for your area.",
+      "start": 85.197,
+      "end": 93.195,
+      "confidence": 0.942,
+      "words": [
+        {
+          "text": "this",
+          "punctuated": "This",
+          "start": 85.197,
+          "end": 85.676,
+          "confidence": 0.98,
+          "speaker": 0,
+          "speaker_confidence": 0.54
+        },
+        {
+          "text": "plan's",
+          "punctuated": "plan's",
+          "start": 85.763,
+          "end": 86.035,
+          "confidence": 0.96,
+          "speaker": 0,
+          "speaker_confidence": 0.31
+        },
+        {
+          "text": "yearly",
+          "punctuated": "yearly",
+          "start": 86.097,
+          "end": 86.371,
+          "confidence": 0.92,
+          "speaker": 0,
+          "speaker_confidence": 0.44
+        },
+        {
+          "text": "cost",
+          "punctuated": "cost",
+          "start": 86.415,
+          "end": 86.783,
+          "confidence": 0.92,
+          "speaker": 0,
+          "speaker_confidence": 0.42
+        },
+        {
+          "text": "is",
+          "punctuated": "is",
+          "start": 86.864,
+          "end": 87.097,
+          "confidence": 0.96,
+          "speaker": 0,
+          "speaker_confidence": 0.29
+        },
+        {
+          "text": "checked",
+          "punctuated": "checked",
+          "start": 87.168,
+          "end": 87.627,
+          "confidence": 0.9,
+          "speaker": 0,
+          "speaker_confidence": 0.33
+        },
+        {
+          "text": "against",
+          "punctuated": "against",
+          "start": 87.677,
+          "end": 88.168,
+          "confidence": 0.96,
+          "speaker": 0,
+          "speaker_confidence": 0.3
+        },
+        {
+          "text": "that",
+          "punctuated": "that",
+          "start": 88.244,
+          "end": 88.478,
+          "confidence": 0.93,
+          "speaker": 0,
+          "speaker_confidence": 0.36
+        },
+        {
+          "text": "default",
+          "punctuated": "Default",
+          "start": 88.568,
+          "end": 89.026,
+          "confidence": 0.98,
+          "speaker": 0,
+          "speaker_confidence": 0.29
+        },
+        {
+          "text": "market",
+          "punctuated": "Market",
+          "start": 89.117,
+          "end": 89.554,
+          "confidence": 0.92,
+          "speaker": 0,
+          "speaker_confidence": 0.39
+        },
+        {
+          "text": "offer",
+          "punctuated": "Offer",
+          "start": 89.652,
+          "end": 89.928,
+          "confidence": 0.93,
+          "speaker": 0,
+          "speaker_confidence": 0.54
+        },
+        {
+          "text": "thing",
+          "punctuated": "thing",
+          "start": 89.995,
+          "end": 90.293,
+          "confidence": 0.95,
+          "speaker": 0,
+          "speaker_confidence": 0.42
+        },
+        {
+          "text": "set",
+          "punctuated": "set",
+          "start": 90.388,
+          "end": 90.608,
+          "confidence": 0.92,
+          "speaker": 0,
+          "speaker_confidence": 0.44
+        },
+        {
+          "text": "by",
+          "punctuated": "by",
+          "start": 90.661,
+          "end": 90.959,
+          "confidence": 0.91,
+          "speaker": 0,
+          "speaker_confidence": 0.38
+        },
+        {
+          "text": "the",
+          "punctuated": "the",
+          "start": 91.014,
+          "end": 91.391,
+          "confidence": 0.92,
+          "speaker": 0,
+          "speaker_confidence": 0.57
+        },
+        {
+          "text": "regulator",
+          "punctuated": "regulator",
+          "start": 91.456,
+          "end": 91.989,
+          "confidence": 0.96,
+          "speaker": 0,
+          "speaker_confidence": 0.54
+        },
+        {
+          "text": "for",
+          "punctuated": "for",
+          "start": 92.081,
+          "end": 92.507,
+          "confidence": 0.9,
+          "speaker": 0,
+          "speaker_confidence": 0.45
+        },
+        {
+          "text": "your",
+          "punctuated": "your",
+          "start": 92.557,
+          "end": 92.828,
+          "confidence": 0.98,
+          "speaker": 0,
+          "speaker_confidence": 0.48
+        },
+        {
+          "text": "area",
+          "punctuated": "area.",
+          "start": 92.864,
+          "end": 93.195,
+          "confidence": 0.99,
+          "speaker": 0,
+          "speaker_confidence": 0.46
+        }
+      ]
+    },
+    {
+      "speaker": "AGENT",
+      "text": "So your peak usage rate on this plan works out to",
+      "start": 93.805,
+      "end": 98.688,
+      "confidence": 0.943,
+      "words": [
+        {
+          "text": "so",
+          "punctuated": "So",
+          "start": 93.805,
+          "end": 94.063,
+          "confidence": 0.91,
+          "speaker": 0,
+          "speaker_confidence": 0.57
+        },
+        {
+          "text": "your",
+          "punctuated": "your",
+          "start": 94.157,
+          "end": 94.475,
+          "confidence": 0.95,
+          "speaker": 0,
+          "speaker_confidence": 0.34
+        },
+        {
+          "text": "peak",
+          "punctuated": "peak",
+          "start": 94.515,
+          "end": 94.888,
+          "confidence": 0.97,
+          "speaker": 0,
+          "speaker_confidence": 0.54
+        },
+        {
+          "text": "usage",
+          "punctuated": "usage",
+          "start": 94.94,
+          "end": 95.373,
+          "confidence": 0.95,
+          "speaker": 0,
+          "speaker_confidence": 0.32
+        },
+        {
+          "text": "rate",
+          "punctuated": "rate",
+          "start": 95.473,
+          "end": 95.959,
+          "confidence": 0.91,
+          "speaker": 0,
+          "speaker_confidence": 0.56
+        },
+        {
+          "text": "on",
+          "punctuated": "on",
+          "start": 96.053,
+          "end": 96.332,
+          "confidence": 0.95,
+          "speaker": 0,
+          "speaker_confidence": 0.56
+        },
+        {
+          "text": "this",
+          "punctuated": "this",
+          "start": 96.37,
+          "end": 96.685,
+          "confidence": 0.98,
+          "speaker": 0,
+          "speaker_confidence": 0.5
+        },
+        {
+          "text": "plan",
+          "punctuated": "plan",
+          "start": 96.769,
+          "end": 97.23,
+          "confidence": 0.94,
+          "speaker": 0,
+          "speaker_confidence": 0.4
+        },
+        {
+          "text": "works",
+          "punctuated": "works",
+          "start": 97.291,
+          "end": 97.784,
+          "confidence": 0.98,
+          "speaker": 0,
+          "speaker_confidence": 0.56
+        },
+        {
+          "text": "out",
+          "punctuated": "out",
+          "start": 97.833,
+          "end": 98.25,
+          "confidence": 0.91,
+          "speaker": 0,
+          "speaker_confidence": 0.34
+        },
+        {
+          "text": "to",
+          "punctuated": "to",
+          "start": 98.333,
+          "end": 98.688,
+          "confidence": 0.92,
+          "speaker": 0,
+          "speaker_confidence": 0.45
+        }
+      ]
+    },
+    {
+      "speaker": "AGENT",
+      "text": "twenty eight point six cents per kilowatt hour.",
+      "start": 99.22,
+      "end": 102.531,
+      "confidence": 0.946,
+      "words": [
+        {
+          "text": "twenty",
+          "punctuated": "twenty",
+          "start": 99.22,
+          "end": 99.667,
+          "confidence": 0.93,
+          "speaker": 0,
+          "speaker_confidence": 0.49
+        },
+        {
+          "text": "eight",
+          "punctuated": "eight",
+          "start": 99.73,
+          "end": 100.111,
+          "confidence": 0.95,
+          "speaker": 0,
+          "speaker_confidence": 0.49
+        },
+        {
+          "text": "point",
+          "punctuated": "point",
+          "start": 100.167,
+          "end": 100.639,
+          "confidence": 0.94,
+          "speaker": 0,
+          "speaker_confidence": 0.32
+        },
+        {
+          "text": "six",
+          "punctuated": "six",
+          "start": 100.683,
+          "end": 100.905,
+          "confidence": 0.97,
+          "speaker": 0,
+          "speaker_confidence": 0.28
+        },
+        {
+          "text": "cents",
+          "punctuated": "cents",
+          "start": 100.954,
+          "end": 101.311,
+          "confidence": 0.97,
+          "speaker": 0,
+          "speaker_confidence": 0.58
+        },
+        {
+          "text": "per",
+          "punctuated": "per",
+          "start": 101.394,
+          "end": 101.625,
+          "confidence": 0.98,
+          "speaker": 0,
+          "speaker_confidence": 0.58
+        },
+        {
+          "text": "kilowatt",
+          "punctuated": "kilowatt",
+          "start": 101.716,
+          "end": 102.147,
+          "confidence": 0.93,
+          "speaker": 0,
+          "speaker_confidence": 0.42
+        },
+        {
+          "text": "hour",
+          "punctuated": "hour.",
+          "start": 102.194,
+          "end": 102.531,
+          "confidence": 0.9,
+          "speaker": 0,
+          "speaker_confidence": 0.5
+        }
+      ]
+    },
+    {
+      "speaker": "AGENT",
+      "text": "And the daily supply charge is",
+      "start": 103.076,
+      "end": 105.753,
+      "confidence": 0.947,
+      "words": [
+        {
+          "text": "and",
+          "punctuated": "And",
+          "start": 103.076,
+          "end": 103.449,
+          "confidence": 0.97,
+          "speaker": 0,
+          "speaker_confidence": 0.46
+        },
+        {
+          "text": "the",
+          "punctuated": "the",
+          "start": 103.516,
+          "end": 103.958,
+          "confidence": 0.97,
+          "speaker": 0,
+          "speaker_confidence": 0.44
+        },
+        {
+          "text": "daily",
+          "punctuated": "daily",
+          "start": 104.02,
+          "end": 104.485,
+          "confidence": 0.9,
+          "speaker": 0,
+          "speaker_confidence": 0.58
+        },
+        {
+          "text": "supply",
+          "punctuated": "supply",
+          "start": 104.551,
+          "end": 104.922,
+          "confidence": 0.97,
+          "speaker": 0,
+          "speaker_confidence": 0.45
+        },
+        {
+          "text": "charge",
+          "punctuated": "charge",
+          "start": 104.988,
+          "end": 105.42,
+          "confidence": 0.9,
+          "speaker": 0,
+          "speaker_confidence": 0.37
+        },
+        {
+          "text": "is",
+          "punctuated": "is",
+          "start": 105.478,
+          "end": 105.753,
+          "confidence": 0.97,
+          "speaker": 0,
+          "speaker_confidence": 0.42
+        }
+      ]
+    },
+    {
+      "speaker": "AGENT",
+      "text": "one hundred and four point two cents a day.",
+      "start": 106.604,
+      "end": 110.257,
+      "confidence": 0.95,
+      "words": [
+        {
+          "text": "one",
+          "punctuated": "one",
+          "start": 106.604,
+          "end": 106.832,
+          "confidence": 0.95,
+          "speaker": 0,
+          "speaker_confidence": 0.32
+        },
+        {
+          "text": "hundred",
+          "punctuated": "hundred",
+          "start": 106.92,
+          "end": 107.323,
+          "confidence": 0.97,
+          "speaker": 0,
+          "speaker_confidence": 0.31
+        },
+        {
+          "text": "and",
+          "punctuated": "and",
+          "start": 107.408,
+          "end": 107.866,
+          "confidence": 0.96,
+          "speaker": 0,
+          "speaker_confidence": 0.32
+        },
+        {
+          "text": "four",
+          "punctuated": "four",
+          "start": 107.925,
+          "end": 108.274,
+          "confidence": 0.92,
+          "speaker": 0,
+          "speaker_confidence": 0.46
+        },
+        {
+          "text": "point",
+          "punctuated": "point",
+          "start": 108.354,
+          "end": 108.657,
+          "confidence": 0.94,
+          "speaker": 0,
+          "speaker_confidence": 0.36
+        },
+        {
+          "text": "two",
+          "punctuated": "two",
+          "start": 108.735,
+          "end": 109.185,
+          "confidence": 0.97,
+          "speaker": 0,
+          "speaker_confidence": 0.5
+        },
+        {
+          "text": "cents",
+          "punctuated": "cents",
+          "start": 109.224,
+          "end": 109.504,
+          "confidence": 0.94,
+          "speaker": 0,
+          "speaker_confidence": 0.39
+        },
+        {
+          "text": "a",
+          "punctuated": "a",
+          "start": 109.571,
+          "end": 109.849,
+          "confidence": 0.97,
+          "speaker": 0,
+          "speaker_confidence": 0.43
+        },
+        {
+          "text": "day",
+          "punctuated": "day.",
+          "start": 109.945,
+          "end": 110.257,
+          "confidence": 0.93,
+          "speaker": 0,
+          "speaker_confidence": 0.51
+        }
+      ]
+    },
+    {
+      "speaker": "CUSTOMER",
+      "text": "Okay that sounds fine.",
+      "start": 110.934,
+      "end": 112.589,
+      "confidence": 0.943,
+      "words": [
+        {
+          "text": "okay",
+          "punctuated": "Okay",
+          "start": 110.934,
+          "end": 111.337,
+          "confidence": 0.91,
+          "speaker": 1,
+          "speaker_confidence": 0.54
+        },
+        {
+          "text": "that",
+          "punctuated": "that",
+          "start": 111.38,
+          "end": 111.797,
+          "confidence": 0.94,
+          "speaker": 1,
+          "speaker_confidence": 0.37
+        },
+        {
+          "text": "sounds",
+          "punctuated": "sounds",
+          "start": 111.881,
+          "end": 112.265,
+          "confidence": 0.96,
+          "speaker": 1,
+          "speaker_confidence": 0.32
+        },
+        {
+          "text": "fine",
+          "punctuated": "fine.",
+          "start": 112.304,
+          "end": 112.589,
+          "confidence": 0.96,
+          "speaker": 1,
+          "speaker_confidence": 0.36
+        }
+      ]
+    },
+    {
+      "speaker": "AGENT",
+      "text": "Can I just read back your email to confirm we've got it right?",
+      "start": 113.635,
+      "end": 119.136,
+      "confidence": 0.934,
+      "words": [
+        {
+          "text": "can",
+          "punctuated": "Can",
+          "start": 113.635,
+          "end": 113.99,
+          "confidence": 0.9,
+          "speaker": 0,
+          "speaker_confidence": 0.54
+        },
+        {
+          "text": "i",
+          "punctuated": "I",
+          "start": 114.037,
+          "end": 114.368,
+          "confidence": 0.94,
+          "speaker": 0,
+          "speaker_confidence": 0.4
+        },
+        {
+          "text": "just",
+          "punctuated": "just",
+          "start": 114.404,
+          "end": 114.792,
+          "confidence": 0.92,
+          "speaker": 0,
+          "speaker_confidence": 0.44
+        },
+        {
+          "text": "read",
+          "punctuated": "read",
+          "start": 114.865,
+          "end": 115.242,
+          "confidence": 0.97,
+          "speaker": 0,
+          "speaker_confidence": 0.29
+        },
+        {
+          "text": "back",
+          "punctuated": "back",
+          "start": 115.282,
+          "end": 115.684,
+          "confidence": 0.9,
+          "speaker": 0,
+          "speaker_confidence": 0.54
+        },
+        {
+          "text": "your",
+          "punctuated": "your",
+          "start": 115.761,
+          "end": 116.211,
+          "confidence": 0.93,
+          "speaker": 0,
+          "speaker_confidence": 0.56
+        },
+        {
+          "text": "email",
+          "punctuated": "email",
+          "start": 116.244,
+          "end": 116.602,
+          "confidence": 0.92,
+          "speaker": 0,
+          "speaker_confidence": 0.48
+        },
+        {
+          "text": "to",
+          "punctuated": "to",
+          "start": 116.675,
+          "end": 117.051,
+          "confidence": 0.95,
+          "speaker": 0,
+          "speaker_confidence": 0.52
+        },
+        {
+          "text": "confirm",
+          "punctuated": "confirm",
+          "start": 117.093,
+          "end": 117.497,
+          "confidence": 0.95,
+          "speaker": 0,
+          "speaker_confidence": 0.56
+        },
+        {
+          "text": "we've",
+          "punctuated": "we've",
+          "start": 117.534,
+          "end": 117.862,
+          "confidence": 0.93,
+          "speaker": 0,
+          "speaker_confidence": 0.39
+        },
+        {
+          "text": "got",
+          "punctuated": "got",
+          "start": 117.897,
+          "end": 118.222,
+          "confidence": 0.95,
+          "speaker": 0,
+          "speaker_confidence": 0.37
+        },
+        {
+          "text": "it",
+          "punctuated": "it",
+          "start": 118.261,
+          "end": 118.638,
+          "confidence": 0.92,
+          "speaker": 0,
+          "speaker_confidence": 0.44
+        },
+        {
+          "text": "right",
+          "punctuated": "right?",
+          "start": 118.705,
+          "end": 119.136,
+          "confidence": 0.96,
+          "speaker": 0,
+          "speaker_confidence": 0.31
+        }
+      ]
+    },
+    {
+      "speaker": "AGENT",
+      "text": "M dot owusu at example dot com, is that right?",
+      "start": 120.02,
+      "end": 124.113,
+      "confidence": 0.944,
+      "words": [
+        {
+          "text": "m",
+          "punctuated": "M",
+          "start": 120.02,
+          "end": 120.455,
+          "confidence": 0.94,
+          "speaker": 0,
+          "speaker_confidence": 0.49
+        },
+        {
+          "text": "dot",
+          "punctuated": "dot",
+          "start": 120.55,
+          "end": 121.02,
+          "confidence": 0.93,
+          "speaker": 0,
+          "speaker_confidence": 0.46
+        },
+        {
+          "text": "owusu",
+          "punctuated": "owusu",
+          "start": 121.072,
+          "end": 121.459,
+          "confidence": 0.99,
+          "speaker": 0,
+          "speaker_confidence": 0.39
+        },
+        {
+          "text": "at",
+          "punctuated": "at",
+          "start": 121.498,
+          "end": 121.84,
+          "confidence": 0.95,
+          "speaker": 0,
+          "speaker_confidence": 0.47
+        },
+        {
+          "text": "example",
+          "punctuated": "example",
+          "start": 121.904,
+          "end": 122.237,
+          "confidence": 0.95,
+          "speaker": 0,
+          "speaker_confidence": 0.49
+        },
+        {
+          "text": "dot",
+          "punctuated": "dot",
+          "start": 122.336,
+          "end": 122.55,
+          "confidence": 0.9,
+          "speaker": 0,
+          "speaker_confidence": 0.47
+        },
+        {
+          "text": "com",
+          "punctuated": "com,",
+          "start": 122.588,
+          "end": 123.022,
+          "confidence": 0.97,
+          "speaker": 0,
+          "speaker_confidence": 0.58
+        },
+        {
+          "text": "is",
+          "punctuated": "is",
+          "start": 123.081,
+          "end": 123.364,
+          "confidence": 0.95,
+          "speaker": 0,
+          "speaker_confidence": 0.47
+        },
+        {
+          "text": "that",
+          "punctuated": "that",
+          "start": 123.395,
+          "end": 123.679,
+          "confidence": 0.93,
+          "speaker": 0,
+          "speaker_confidence": 0.52
+        },
+        {
+          "text": "right",
+          "punctuated": "right?",
+          "start": 123.731,
+          "end": 124.113,
+          "confidence": 0.93,
+          "speaker": 0,
+          "speaker_confidence": 0.28
+        }
+      ]
+    },
+    {
+      "speaker": "CUSTOMER",
+      "text": "Yep that's right.",
+      "start": 124.662,
+      "end": 126.011,
+      "confidence": 0.95,
+      "words": [
+        {
+          "text": "yep",
+          "punctuated": "Yep",
+          "start": 124.662,
+          "end": 125.064,
+          "confidence": 0.96,
+          "speaker": 1,
+          "speaker_confidence": 0.29
+        },
+        {
+          "text": "that's",
+          "punctuated": "that's",
+          "start": 125.106,
+          "end": 125.46,
+          "confidence": 0.93,
+          "speaker": 1,
+          "speaker_confidence": 0.48
+        },
+        {
+          "text": "right",
+          "punctuated": "right.",
+          "start": 125.554,
+          "end": 126.011,
+          "confidence": 0.96,
+          "speaker": 1,
+          "speaker_confidence": 0.42
+        }
+      ]
+    },
+    {
+      "speaker": "AGENT",
+      "text": "You have a ten business day cooling-off period during which you can cancel this agreement at no cost.",
+      "start": 127.099,
+      "end": 135.089,
+      "confidence": 0.949,
+      "words": [
+        {
+          "text": "you",
+          "punctuated": "You",
+          "start": 127.099,
+          "end": 127.453,
+          "confidence": 0.93,
+          "speaker": 0,
+          "speaker_confidence": 0.52
+        },
+        {
+          "text": "have",
+          "punctuated": "have",
+          "start": 127.512,
+          "end": 127.937,
+          "confidence": 0.98,
+          "speaker": 0,
+          "speaker_confidence": 0.37
+        },
+        {
+          "text": "a",
+          "punctuated": "a",
+          "start": 128.018,
+          "end": 128.278,
+          "confidence": 0.95,
+          "speaker": 0,
+          "speaker_confidence": 0.34
+        },
+        {
+          "text": "ten",
+          "punctuated": "ten",
+          "start": 128.356,
+          "end": 128.778,
+          "confidence": 0.98,
+          "speaker": 0,
+          "speaker_confidence": 0.39
+        },
+        {
+          "text": "business",
+          "punctuated": "business",
+          "start": 128.876,
+          "end": 129.253,
+          "confidence": 0.9,
+          "speaker": 0,
+          "speaker_confidence": 0.58
+        },
+        {
+          "text": "day",
+          "punctuated": "day",
+          "start": 129.327,
+          "end": 129.76,
+          "confidence": 0.95,
+          "speaker": 0,
+          "speaker_confidence": 0.4
+        },
+        {
+          "text": "cooling-off",
+          "punctuated": "cooling-off",
+          "start": 129.832,
+          "end": 130.415,
+          "confidence": 0.97,
+          "speaker": 0,
+          "speaker_confidence": 0.49
+        },
+        {
+          "text": "period",
+          "punctuated": "period",
+          "start": 130.467,
+          "end": 130.743,
+          "confidence": 0.94,
+          "speaker": 0,
+          "speaker_confidence": 0.43
+        },
+        {
+          "text": "during",
+          "punctuated": "during",
+          "start": 130.79,
+          "end": 131.175,
+          "confidence": 0.99,
+          "speaker": 0,
+          "speaker_confidence": 0.34
+        },
+        {
+          "text": "which",
+          "punctuated": "which",
+          "start": 131.226,
+          "end": 131.505,
+          "confidence": 0.97,
+          "speaker": 0,
+          "speaker_confidence": 0.51
+        },
+        {
+          "text": "you",
+          "punctuated": "you",
+          "start": 131.599,
+          "end": 131.928,
+          "confidence": 0.9,
+          "speaker": 0,
+          "speaker_confidence": 0.42
+        },
+        {
+          "text": "can",
+          "punctuated": "can",
+          "start": 131.993,
+          "end": 132.256,
+          "confidence": 0.98,
+          "speaker": 0,
+          "speaker_confidence": 0.5
+        },
+        {
+          "text": "cancel",
+          "punctuated": "cancel",
+          "start": 132.323,
+          "end": 132.793,
+          "confidence": 0.91,
+          "speaker": 0,
+          "speaker_confidence": 0.54
+        },
+        {
+          "text": "this",
+          "punctuated": "this",
+          "start": 132.881,
+          "end": 133.357,
+          "confidence": 0.96,
+          "speaker": 0,
+          "speaker_confidence": 0.32
+        },
+        {
+          "text": "agreement",
+          "punctuated": "agreement",
+          "start": 133.438,
+          "end": 133.879,
+          "confidence": 0.96,
+          "speaker": 0,
+          "speaker_confidence": 0.44
+        },
+        {
+          "text": "at",
+          "punctuated": "at",
+          "start": 133.909,
+          "end": 134.347,
+          "confidence": 0.96,
+          "speaker": 0,
+          "speaker_confidence": 0.46
+        },
+        {
+          "text": "no",
+          "punctuated": "no",
+          "start": 134.383,
+          "end": 134.7,
+          "confidence": 0.9,
+          "speaker": 0,
+          "speaker_confidence": 0.44
+        },
+        {
+          "text": "cost",
+          "punctuated": "cost.",
+          "start": 134.776,
+          "end": 135.089,
+          "confidence": 0.95,
+          "speaker": 0,
+          "speaker_confidence": 0.37
+        }
+      ]
+    },
+    {
+      "speaker": "AGENT",
+      "text": "We'll email you the full terms and conditions along with your welcome pack.",
+      "start": 135.774,
+      "end": 141.143,
+      "confidence": 0.924,
+      "words": [
+        {
+          "text": "we'll",
+          "punctuated": "We'll",
+          "start": 135.774,
+          "end": 136.074,
+          "confidence": 0.92,
+          "speaker": 0,
+          "speaker_confidence": 0.38
+        },
+        {
+          "text": "email",
+          "punctuated": "email",
+          "start": 136.135,
+          "end": 136.416,
+          "confidence": 0.91,
+          "speaker": 0,
+          "speaker_confidence": 0.36
+        },
+        {
+          "text": "you",
+          "punctuated": "you",
+          "start": 136.447,
+          "end": 136.823,
+          "confidence": 0.95,
+          "speaker": 0,
+          "speaker_confidence": 0.34
+        },
+        {
+          "text": "the",
+          "punctuated": "the",
+          "start": 136.878,
+          "end": 137.175,
+          "confidence": 0.91,
+          "speaker": 0,
+          "speaker_confidence": 0.49
+        },
+        {
+          "text": "full",
+          "punctuated": "full",
+          "start": 137.225,
+          "end": 137.521,
+          "confidence": 0.91,
+          "speaker": 0,
+          "speaker_confidence": 0.46
+        },
+        {
+          "text": "terms",
+          "punctuated": "terms",
+          "start": 137.575,
+          "end": 137.94,
+          "confidence": 0.91,
+          "speaker": 0,
+          "speaker_confidence": 0.42
+        },
+        {
+          "text": "and",
+          "punctuated": "and",
+          "start": 138.017,
+          "end": 138.259,
+          "confidence": 0.9,
+          "speaker": 0,
+          "speaker_confidence": 0.41
+        },
+        {
+          "text": "conditions",
+          "punctuated": "conditions",
+          "start": 138.302,
+          "end": 138.797,
+          "confidence": 0.95,
+          "speaker": 0,
+          "speaker_confidence": 0.53
+        },
+        {
+          "text": "along",
+          "punctuated": "along",
+          "start": 138.876,
+          "end": 139.286,
+          "confidence": 0.93,
+          "speaker": 0,
+          "speaker_confidence": 0.53
+        },
+        {
+          "text": "with",
+          "punctuated": "with",
+          "start": 139.366,
+          "end": 139.772,
+          "confidence": 0.95,
+          "speaker": 0,
+          "speaker_confidence": 0.57
+        },
+        {
+          "text": "your",
+          "punctuated": "your",
+          "start": 139.855,
+          "end": 140.208,
+          "confidence": 0.91,
+          "speaker": 0,
+          "speaker_confidence": 0.52
+        },
+        {
+          "text": "welcome",
+          "punctuated": "welcome",
+          "start": 140.302,
+          "end": 140.71,
+          "confidence": 0.94,
+          "speaker": 0,
+          "speaker_confidence": 0.49
+        },
+        {
+          "text": "pack",
+          "punctuated": "pack.",
+          "start": 140.79,
+          "end": 141.143,
+          "confidence": 0.92,
+          "speaker": 0,
+          "speaker_confidence": 0.35
+        }
+      ]
+    },
+    {
+      "speaker": "AGENT",
+      "text": "Alright, I think that covers everything from my end.",
+      "start": 141.841,
+      "end": 146.049,
+      "confidence": 0.957,
+      "words": [
+        {
+          "text": "alright",
+          "punctuated": "Alright,",
+          "start": 141.841,
+          "end": 142.364,
+          "confidence": 0.94,
+          "speaker": 0,
+          "speaker_confidence": 0.49
+        },
+        {
+          "text": "i",
+          "punctuated": "I",
+          "start": 142.441,
+          "end": 142.824,
+          "confidence": 0.98,
+          "speaker": 0,
+          "speaker_confidence": 0.42
+        },
+        {
+          "text": "think",
+          "punctuated": "think",
+          "start": 142.856,
+          "end": 143.23,
+          "confidence": 0.93,
+          "speaker": 0,
+          "speaker_confidence": 0.42
+        },
+        {
+          "text": "that",
+          "punctuated": "that",
+          "start": 143.272,
+          "end": 143.704,
+          "confidence": 0.95,
+          "speaker": 0,
+          "speaker_confidence": 0.32
+        },
+        {
+          "text": "covers",
+          "punctuated": "covers",
+          "start": 143.741,
+          "end": 144.222,
+          "confidence": 0.97,
+          "speaker": 0,
+          "speaker_confidence": 0.38
+        },
+        {
+          "text": "everything",
+          "punctuated": "everything",
+          "start": 144.297,
+          "end": 144.843,
+          "confidence": 0.95,
+          "speaker": 0,
+          "speaker_confidence": 0.4
+        },
+        {
+          "text": "from",
+          "punctuated": "from",
+          "start": 144.902,
+          "end": 145.295,
+          "confidence": 0.95,
+          "speaker": 0,
+          "speaker_confidence": 0.57
+        },
+        {
+          "text": "my",
+          "punctuated": "my",
+          "start": 145.352,
+          "end": 145.637,
+          "confidence": 0.97,
+          "speaker": 0,
+          "speaker_confidence": 0.46
+        },
+        {
+          "text": "end",
+          "punctuated": "end.",
+          "start": 145.722,
+          "end": 146.049,
+          "confidence": 0.97,
+          "speaker": 0,
+          "speaker_confidence": 0.44
+        }
+      ]
+    },
+    {
+      "speaker": "CUSTOMER",
+      "text": "Yep sounds good, thanks.",
+      "start": 146.926,
+      "end": 148.53,
+      "confidence": 0.97,
+      "words": [
+        {
+          "text": "yep",
+          "punctuated": "Yep",
+          "start": 146.926,
+          "end": 147.16,
+          "confidence": 0.98,
+          "speaker": 1,
+          "speaker_confidence": 0.45
+        },
+        {
+          "text": "sounds",
+          "punctuated": "sounds",
+          "start": 147.224,
+          "end": 147.646,
+          "confidence": 0.94,
+          "speaker": 1,
+          "speaker_confidence": 0.45
+        },
+        {
+          "text": "good",
+          "punctuated": "good,",
+          "start": 147.734,
+          "end": 148.012,
+          "confidence": 0.99,
+          "speaker": 1,
+          "speaker_confidence": 0.3
+        },
+        {
+          "text": "thanks",
+          "punctuated": "thanks.",
+          "start": 148.05,
+          "end": 148.53,
+          "confidence": 0.97,
+          "speaker": 1,
+          "speaker_confidence": 0.39
+        }
+      ]
+    },
+    {
+      "speaker": "AGENT",
+      "text": "Great, thanks so much for your time today, have a good one.",
+      "start": 149.423,
+      "end": 154.276,
+      "confidence": 0.937,
+      "words": [
+        {
+          "text": "great",
+          "punctuated": "Great,",
+          "start": 149.423,
+          "end": 149.697,
+          "confidence": 0.97,
+          "speaker": 0,
+          "speaker_confidence": 0.55
+        },
+        {
+          "text": "thanks",
+          "punctuated": "thanks",
+          "start": 149.79,
+          "end": 150.223,
+          "confidence": 0.9,
+          "speaker": 0,
+          "speaker_confidence": 0.32
+        },
+        {
+          "text": "so",
+          "punctuated": "so",
+          "start": 150.263,
+          "end": 150.597,
+          "confidence": 0.94,
+          "speaker": 0,
+          "speaker_confidence": 0.45
+        },
+        {
+          "text": "much",
+          "punctuated": "much",
+          "start": 150.641,
+          "end": 151.05,
+          "confidence": 0.93,
+          "speaker": 0,
+          "speaker_confidence": 0.45
+        },
+        {
+          "text": "for",
+          "punctuated": "for",
+          "start": 151.144,
+          "end": 151.437,
+          "confidence": 0.98,
+          "speaker": 0,
+          "speaker_confidence": 0.41
+        },
+        {
+          "text": "your",
+          "punctuated": "your",
+          "start": 151.536,
+          "end": 151.858,
+          "confidence": 0.91,
+          "speaker": 0,
+          "speaker_confidence": 0.28
+        },
+        {
+          "text": "time",
+          "punctuated": "time",
+          "start": 151.957,
+          "end": 152.294,
+          "confidence": 0.91,
+          "speaker": 0,
+          "speaker_confidence": 0.37
+        },
+        {
+          "text": "today",
+          "punctuated": "today,",
+          "start": 152.35,
+          "end": 152.743,
+          "confidence": 0.9,
+          "speaker": 0,
+          "speaker_confidence": 0.49
+        },
+        {
+          "text": "have",
+          "punctuated": "have",
+          "start": 152.83,
+          "end": 153.155,
+          "confidence": 0.98,
+          "speaker": 0,
+          "speaker_confidence": 0.54
+        },
+        {
+          "text": "a",
+          "punctuated": "a",
+          "start": 153.201,
+          "end": 153.562,
+          "confidence": 0.94,
+          "speaker": 0,
+          "speaker_confidence": 0.38
+        },
+        {
+          "text": "good",
+          "punctuated": "good",
+          "start": 153.619,
+          "end": 153.95,
+          "confidence": 0.95,
+          "speaker": 0,
+          "speaker_confidence": 0.48
+        },
+        {
+          "text": "one",
+          "punctuated": "one.",
+          "start": 154.013,
+          "end": 154.276,
+          "confidence": 0.93,
+          "speaker": 0,
+          "speaker_confidence": 0.56
+        }
+      ]
+    },
+    {
+      "speaker": "CUSTOMER",
+      "text": "You too, bye.",
+      "start": 154.788,
+      "end": 156.046,
+      "confidence": 0.943,
+      "words": [
+        {
+          "text": "you",
+          "punctuated": "You",
+          "start": 154.788,
+          "end": 155.261,
+          "confidence": 0.96,
+          "speaker": 1,
+          "speaker_confidence": 0.32
+        },
+        {
+          "text": "too",
+          "punctuated": "too,",
+          "start": 155.296,
+          "end": 155.514,
+          "confidence": 0.96,
+          "speaker": 1,
+          "speaker_confidence": 0.43
+        },
+        {
+          "text": "bye",
+          "punctuated": "bye.",
+          "start": 155.575,
+          "end": 156.046,
+          "confidence": 0.91,
+          "speaker": 1,
+          "speaker_confidence": 0.47
+        }
+      ]
+    }
+  ]
+}

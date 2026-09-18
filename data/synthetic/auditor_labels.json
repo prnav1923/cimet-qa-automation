@@ -1,0 +1,44 @@
+[
+  {
+    "lead_id": "LEAD_3613790",
+    "check_id": "CHK_B_PEAK_RATE",
+    "status": "FAIL",
+    "auditor_id": "AUD_1"
+  },
+  {
+    "lead_id": "LEAD_3613790",
+    "check_id": "CHK_A_DISCLAIMER",
+    "status": "PASS",
+    "auditor_id": "AUD_1"
+  },
+  {
+    "lead_id": "LEAD_3613793",
+    "check_id": "CHK_A_DISCLAIMER",
+    "status": "PASS",
+    "auditor_id": "AUD_2"
+  },
+  {
+    "lead_id": "LEAD_3613794",
+    "check_id": "CHK_A_DMO",
+    "status": "PASS",
+    "auditor_id": "AUD_1"
+  },
+  {
+    "lead_id": "LEAD_3613797",
+    "check_id": "CHK_B_ADDRESS",
+    "status": "PASS",
+    "auditor_id": "AUD_2"
+  },
+  {
+    "lead_id": "LEAD_3613798",
+    "check_id": "CHK_B_DOB",
+    "status": "FAIL",
+    "auditor_id": "AUD_1"
+  },
+  {
+    "lead_id": "LEAD_3613801",
+    "check_id": "CHK_B_PEAK_RATE",
+    "status": "FAIL",
+    "auditor_id": "AUD_2"
+  }
+]

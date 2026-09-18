@@ -1,0 +1,296 @@
+[
+  {
+    "lead_id": "LEAD_3613790",
+    "retailer_id": "RTL_001",
+    "call_date": "2026-09-02",
+    "agent_id": "AGT_A",
+    "team_lead_id": "TL_1",
+    "campaign": "affiliate",
+    "last_completed_step": "plan_selection",
+    "recording_path": "data/synthetic/audio/LEAD_3613790.mp3",
+    "plan_id": "PLAN_A",
+    "crm_fields": {
+      "email": "j.smith@example.com",
+      "supply_address": "12 Rundle Street, Adelaide SA 5000",
+      "dob": "1984-03-17",
+      "nmi": "2001234567",
+      "fuel_type": "electricity",
+      "concession": false,
+      "life_support": false,
+      "move_in_date": "2026-09-15"
+    }
+  },
+  {
+    "lead_id": "LEAD_3613791",
+    "retailer_id": "RTL_001",
+    "call_date": "2026-09-05",
+    "agent_id": "AGT_B",
+    "team_lead_id": "TL_1",
+    "campaign": "owned_site",
+    "last_completed_step": "plan_selection",
+    "recording_path": "data/synthetic/audio/LEAD_3613791.mp3",
+    "plan_id": "PLAN_C",
+    "crm_fields": {
+      "email": "a.nguyen@example.com",
+      "supply_address": "44 Grote Street, Adelaide SA 5000",
+      "dob": "1991-11-02",
+      "nmi": "2004455667",
+      "fuel_type": "electricity",
+      "concession": false,
+      "life_support": false,
+      "move_in_date": "2026-09-20"
+    }
+  },
+  {
+    "lead_id": "LEAD_3613800",
+    "retailer_id": "RTL_001",
+    "call_date": "2026-09-06",
+    "agent_id": "AGT_C",
+    "team_lead_id": "TL_2",
+    "campaign": "paid_search",
+    "last_completed_step": "plan_selection",
+    "recording_path": "data/synthetic/audio/LEAD_3613800.mp3",
+    "plan_id": "PLAN_D",
+    "crm_fields": {
+      "email": "r.patel@example.com",
+      "supply_address": "9 Currie Street, Adelaide SA 5000",
+      "dob": "1979-02-14",
+      "nmi": "2007788990",
+      "fuel_type": "electricity",
+      "concession": false,
+      "life_support": false,
+      "move_in_date": "2026-09-25"
+    }
+  },
+  {
+    "lead_id": "LEAD_3613792",
+    "retailer_id": "RTL_001",
+    "call_date": "2026-09-07",
+    "agent_id": "AGT_D",
+    "team_lead_id": "TL_2",
+    "campaign": "inbound",
+    "last_completed_step": "plan_selection",
+    "recording_path": "data/synthetic/audio/LEAD_3613792.mp3",
+    "plan_id": "PLAN_B",
+    "crm_fields": {
+      "email": "m.owusu@example.com",
+      "supply_address": "3 King William Road, Adelaide SA 5000",
+      "dob": "1988-08-08",
+      "nmi": "2003322110",
+      "fuel_type": "electricity",
+      "concession": false,
+      "life_support": false,
+      "move_in_date": "2026-09-18"
+    }
+  },
+  {
+    "lead_id": "LEAD_3613793",
+    "retailer_id": "RTL_001",
+    "call_date": "2026-09-08",
+    "agent_id": "AGT_A",
+    "team_lead_id": "TL_1",
+    "campaign": "affiliate",
+    "last_completed_step": "plan_selection",
+    "recording_path": "data/synthetic/audio/LEAD_3613793.mp3",
+    "plan_id": "PLAN_A",
+    "crm_fields": {
+      "email": "s.khan@example.com",
+      "supply_address": "77 Hindley Street, Adelaide SA 5000",
+      "dob": "1995-05-30",
+      "nmi": "2009911223",
+      "fuel_type": "electricity",
+      "concession": false,
+      "life_support": false,
+      "move_in_date": "2026-09-22"
+    }
+  },
+  {
+    "lead_id": "LEAD_3613794",
+    "retailer_id": "RTL_001",
+    "call_date": "2026-05-10",
+    "agent_id": "AGT_B",
+    "team_lead_id": "TL_1",
+    "campaign": "owned_site",
+    "last_completed_step": "plan_selection",
+    "recording_path": "data/synthetic/audio/LEAD_3613794.mp3",
+    "plan_id": "PLAN_C",
+    "crm_fields": {
+      "email": "l.tran@example.com",
+      "supply_address": "21 Flinders Street, Adelaide SA 5000",
+      "dob": "1982-12-01",
+      "nmi": "2002233445",
+      "fuel_type": "electricity",
+      "concession": false,
+      "life_support": false,
+      "move_in_date": "2026-05-20"
+    }
+  },
+  {
+    "lead_id": "LEAD_3613795",
+    "retailer_id": "RTL_001",
+    "call_date": "2026-03-01",
+    "agent_id": "AGT_C",
+    "team_lead_id": "TL_2",
+    "campaign": "paid_search",
+    "last_completed_step": "plan_selection",
+    "recording_path": "data/synthetic/audio/LEAD_3613795.mp3",
+    "plan_id": "PLAN_C",
+    "crm_fields": {
+      "email": "d.wilson@example.com",
+      "supply_address": "5 North Terrace, Adelaide SA 5000",
+      "dob": "1975-07-19",
+      "nmi": "2005566778",
+      "fuel_type": "electricity",
+      "concession": false,
+      "life_support": false,
+      "move_in_date": "2026-03-12"
+    }
+  },
+  {
+    "lead_id": "LEAD_3613796",
+    "retailer_id": "RTL_001",
+    "call_date": "2026-09-09",
+    "agent_id": "AGT_D",
+    "team_lead_id": "TL_2",
+    "campaign": "inbound",
+    "last_completed_step": "plan_selection",
+    "recording_path": "data/synthetic/audio/LEAD_3613796.mp3",
+    "plan_id": "PLAN_D",
+    "crm_fields": {
+      "email": "p.jones@example.com",
+      "supply_address": "60 Wakefield Street, Adelaide SA 5000",
+      "dob": "1993-01-25",
+      "nmi": "2008877665",
+      "fuel_type": "electricity",
+      "concession": false,
+      "life_support": false,
+      "move_in_date": "2026-09-19"
+    }
+  },
+  {
+    "lead_id": "LEAD_3613797",
+    "retailer_id": "RTL_001",
+    "call_date": "2026-09-10",
+    "agent_id": "AGT_A",
+    "team_lead_id": "TL_1",
+    "campaign": "affiliate",
+    "last_completed_step": "plan_selection",
+    "recording_path": "data/synthetic/audio/LEAD_3613797.mp3",
+    "plan_id": "PLAN_A",
+    "crm_fields": {
+      "email": "e.chen@example.com",
+      "supply_address": "12 Rundle Street, Adelaide SA 5000",
+      "dob": "1986-04-04",
+      "nmi": "2001199887",
+      "fuel_type": "electricity",
+      "concession": false,
+      "life_support": false,
+      "move_in_date": "2026-09-21"
+    }
+  },
+  {
+    "lead_id": "LEAD_3613798",
+    "retailer_id": "RTL_001",
+    "call_date": "2026-09-11",
+    "agent_id": "AGT_B",
+    "team_lead_id": "TL_1",
+    "campaign": "owned_site",
+    "last_completed_step": "plan_selection",
+    "recording_path": "data/synthetic/audio/LEAD_3613798.mp3",
+    "plan_id": "PLAN_B",
+    "crm_fields": {
+      "email": "h.oconnor@example.com",
+      "supply_address": "88 Pulteney Street, Adelaide SA 5000",
+      "dob": "1990-06-21",
+      "nmi": "2006611992",
+      "fuel_type": "electricity",
+      "concession": false,
+      "life_support": false,
+      "move_in_date": "2026-09-23"
+    }
+  },
+  {
+    "lead_id": "LEAD_3613799",
+    "retailer_id": "RTL_001",
+    "call_date": "2026-09-12",
+    "agent_id": "AGT_C",
+    "team_lead_id": "TL_2",
+    "campaign": "paid_search",
+    "last_completed_step": "plan_selection",
+    "recording_path": "data/synthetic/audio/LEAD_3613799.mp3",
+    "plan_id": "PLAN_C",
+    "crm_fields": {
+      "email": "f.dimitriou@example.com",
+      "supply_address": "15 Gouger Street, Adelaide SA 5000",
+      "dob": "1984-10-10",
+      "nmi": "2004433221",
+      "fuel_type": "electricity",
+      "concession": false,
+      "life_support": false,
+      "move_in_date": "2026-09-24"
+    }
+  },
+  {
+    "lead_id": "LEAD_3613801",
+    "retailer_id": "RTL_001",
+    "call_date": "2026-09-13",
+    "agent_id": "AGT_D",
+    "team_lead_id": "TL_2",
+    "campaign": "inbound",
+    "last_completed_step": "plan_selection",
+    "recording_path": "data/synthetic/audio/LEAD_3613801.mp3",
+    "plan_id": "PLAN_A",
+    "crm_fields": {
+      "email": "b.singh@example.com",
+      "supply_address": "40 Angas Street, Adelaide SA 5000",
+      "dob": "1980-09-09",
+      "nmi": "2005500112",
+      "fuel_type": "electricity",
+      "concession": false,
+      "life_support": false,
+      "move_in_date": "2026-09-26"
+    }
+  },
+  {
+    "lead_id": "LEAD_3613802",
+    "retailer_id": "RTL_001",
+    "call_date": "2026-09-14",
+    "agent_id": "AGT_A",
+    "team_lead_id": "TL_1",
+    "campaign": "affiliate",
+    "last_completed_step": "plan_selection",
+    "recording_path": "data/synthetic/audio/LEAD_3613802.mp3",
+    "plan_id": "PLAN_A",
+    "crm_fields": {
+      "email": "k.morris@example.com",
+      "supply_address": "18 South Terrace, Adelaide SA 5000",
+      "dob": "1987-02-17",
+      "nmi": "2001122334",
+      "fuel_type": "electricity",
+      "concession": false,
+      "life_support": false,
+      "move_in_date": "2026-09-27"
+    }
+  },
+  {
+    "lead_id": "LEAD_3613803",
+    "retailer_id": "RTL_001",
+    "call_date": "2026-09-15",
+    "agent_id": "AGT_B",
+    "team_lead_id": "TL_1",
+    "campaign": "owned_site",
+    "last_completed_step": "plan_selection",
+    "recording_path": "data/synthetic/audio/LEAD_3613803.mp3",
+    "plan_id": "PLAN_B",
+    "crm_fields": {
+      "email": "n.papadopoulos@example.com",
+      "supply_address": "27 Waymouth Street, Adelaide SA 5000",
+      "dob": "1992-03-03",
+      "nmi": "2003344556",
+      "fuel_type": "electricity",
+      "concession": false,
+      "life_support": false,
+      "move_in_date": "2026-09-28"
+    }
+  }
+]

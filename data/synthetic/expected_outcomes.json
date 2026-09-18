@@ -1,0 +1,254 @@
+[
+  {
+    "lead_id": "LEAD_3613790",
+    "gate_status": "HELD",
+    "sampled": false,
+    "critical_checks": {
+      "CHK_A_DISCLAIMER": "PASS",
+      "CHK_A_ACCOUNT_HOLDER": "PASS",
+      "CHK_A_DMO": "PASS",
+      "CHK_A_COOLING_OFF": "LOW_CONFIDENCE",
+      "CHK_B_PEAK_RATE": "FAIL",
+      "CHK_B_DAILY_SUPPLY": "PASS",
+      "CHK_B_EMAIL": "FAIL",
+      "CHK_B_ADDRESS": "PASS",
+      "CHK_B_DOB": "PASS",
+      "CHK_B_NMI": "PASS"
+    },
+    "notes": "rate mismatch (said 28.6, plan is PLAN_A=31.9), email typo, 47s dead air, one low-confidence word in cooling-off span, one out-of-order timestamp pair"
+  },
+  {
+    "lead_id": "LEAD_3613791",
+    "gate_status": "AUTO_SUBMIT",
+    "sampled": false,
+    "critical_checks": {
+      "CHK_A_ACCOUNT_HOLDER": "PASS",
+      "CHK_A_COOLING_OFF": "PASS",
+      "CHK_A_DISCLAIMER": "PASS",
+      "CHK_A_DMO": "PASS",
+      "CHK_B_ADDRESS": "PASS",
+      "CHK_B_DAILY_SUPPLY": "PASS",
+      "CHK_B_DOB": "PASS",
+      "CHK_B_EMAIL": "PASS",
+      "CHK_B_NMI": "PASS",
+      "CHK_B_PEAK_RATE": "PASS"
+    },
+    "notes": "fully clean, all green, high confidence throughout"
+  },
+  {
+    "lead_id": "LEAD_3613800",
+    "gate_status": "AUTO_SUBMIT",
+    "sampled": true,
+    "critical_checks": {
+      "CHK_A_ACCOUNT_HOLDER": "PASS",
+      "CHK_A_COOLING_OFF": "PASS",
+      "CHK_A_DISCLAIMER": "PASS",
+      "CHK_A_DMO": "PASS",
+      "CHK_B_ADDRESS": "PASS",
+      "CHK_B_DAILY_SUPPLY": "PASS",
+      "CHK_B_DOB": "PASS",
+      "CHK_B_EMAIL": "PASS",
+      "CHK_B_NMI": "PASS",
+      "CHK_B_PEAK_RATE": "PASS"
+    },
+    "notes": "clean and lands in the deterministic 5% sample bucket"
+  },
+  {
+    "lead_id": "LEAD_3613792",
+    "gate_status": "QA_REVIEW",
+    "sampled": false,
+    "critical_checks": {
+      "CHK_A_ACCOUNT_HOLDER": "PASS",
+      "CHK_A_COOLING_OFF": "PASS",
+      "CHK_A_DISCLAIMER": "PASS",
+      "CHK_A_DMO": "LOW_CONFIDENCE",
+      "CHK_B_ADDRESS": "PASS",
+      "CHK_B_DAILY_SUPPLY": "PASS",
+      "CHK_B_DOB": "PASS",
+      "CHK_B_EMAIL": "PASS",
+      "CHK_B_NMI": "PASS",
+      "CHK_B_PEAK_RATE": "PASS"
+    },
+    "notes": "DMO line paraphrased/mumbled, ~0.72-0.76 similarity -> LOW_CONFIDENCE"
+  },
+  {
+    "lead_id": "LEAD_3613793",
+    "gate_status": "HELD",
+    "sampled": false,
+    "critical_checks": {
+      "CHK_A_ACCOUNT_HOLDER": "PASS",
+      "CHK_A_COOLING_OFF": "PASS",
+      "CHK_A_DISCLAIMER": "FAIL",
+      "CHK_A_DMO": "PASS",
+      "CHK_B_ADDRESS": "PASS",
+      "CHK_B_DAILY_SUPPLY": "PASS",
+      "CHK_B_DOB": "PASS",
+      "CHK_B_EMAIL": "PASS",
+      "CHK_B_NMI": "PASS",
+      "CHK_B_PEAK_RATE": "PASS"
+    },
+    "notes": "recording disclaimer never read -> critical FAIL"
+  },
+  {
+    "lead_id": "LEAD_3613794",
+    "gate_status": "AUTO_SUBMIT",
+    "sampled": false,
+    "critical_checks": {
+      "CHK_A_ACCOUNT_HOLDER": "PASS",
+      "CHK_A_COOLING_OFF": "PASS",
+      "CHK_A_DISCLAIMER": "PASS",
+      "CHK_A_DMO": "PASS",
+      "CHK_B_ADDRESS": "PASS",
+      "CHK_B_DAILY_SUPPLY": "PASS",
+      "CHK_B_DOB": "PASS",
+      "CHK_B_EMAIL": "PASS",
+      "CHK_B_NMI": "PASS",
+      "CHK_B_PEAK_RATE": "PASS"
+    },
+    "notes": "old call before DMO cutover, reads v1 wording verbatim -> resolves v1, PASS"
+  },
+  {
+    "lead_id": "LEAD_3613795",
+    "gate_status": "HELD",
+    "sampled": false,
+    "critical_checks": {
+      "CHK_A_ACCOUNT_HOLDER": "PASS",
+      "CHK_A_COOLING_OFF": "PASS",
+      "CHK_A_DISCLAIMER": "PASS",
+      "CHK_A_DMO": "FAIL",
+      "CHK_B_ADDRESS": "PASS",
+      "CHK_B_DAILY_SUPPLY": "PASS",
+      "CHK_B_DOB": "PASS",
+      "CHK_B_EMAIL": "PASS",
+      "CHK_B_NMI": "PASS",
+      "CHK_B_PEAK_RATE": "PASS"
+    },
+    "notes": "old call, agent reads the not-yet-live v2 DMO wording -> fails against v1"
+  },
+  {
+    "lead_id": "LEAD_3613796",
+    "gate_status": "HELD",
+    "sampled": false,
+    "critical_checks": {
+      "CHK_A_ACCOUNT_HOLDER": "PASS",
+      "CHK_A_COOLING_OFF": "PASS",
+      "CHK_A_DISCLAIMER": "PASS",
+      "CHK_A_DMO": "PASS",
+      "CHK_B_ADDRESS": "PASS",
+      "CHK_B_DAILY_SUPPLY": "PASS",
+      "CHK_B_DOB": "PASS",
+      "CHK_B_EMAIL": "PASS",
+      "CHK_B_NMI": "PASS",
+      "CHK_B_PEAK_RATE": "PASS"
+    },
+    "notes": "card number spoken mid-call -> guardrail HELD (P4 regex, not a scored check)"
+  },
+  {
+    "lead_id": "LEAD_3613797",
+    "gate_status": "AUTO_SUBMIT",
+    "sampled": false,
+    "critical_checks": {
+      "CHK_A_ACCOUNT_HOLDER": "PASS",
+      "CHK_A_COOLING_OFF": "PASS",
+      "CHK_A_DISCLAIMER": "PASS",
+      "CHK_A_DMO": "PASS",
+      "CHK_B_ADDRESS": "PASS",
+      "CHK_B_DAILY_SUPPLY": "PASS",
+      "CHK_B_DOB": "PASS",
+      "CHK_B_EMAIL": "PASS",
+      "CHK_B_NMI": "PASS",
+      "CHK_B_PEAK_RATE": "PASS"
+    },
+    "notes": "address spoken as 'St' vs CRM 'Street' -> must normalise, not string-mismatch"
+  },
+  {
+    "lead_id": "LEAD_3613798",
+    "gate_status": "HELD",
+    "sampled": false,
+    "critical_checks": {
+      "CHK_A_ACCOUNT_HOLDER": "PASS",
+      "CHK_A_COOLING_OFF": "PASS",
+      "CHK_A_DISCLAIMER": "PASS",
+      "CHK_A_DMO": "PASS",
+      "CHK_B_ADDRESS": "PASS",
+      "CHK_B_DAILY_SUPPLY": "PASS",
+      "CHK_B_DOB": "FAIL",
+      "CHK_B_EMAIL": "PASS",
+      "CHK_B_NMI": "PASS",
+      "CHK_B_PEAK_RATE": "PASS"
+    },
+    "notes": "DOB spoken as 1992, CRM says 1990 -> clear mismatch"
+  },
+  {
+    "lead_id": "LEAD_3613799",
+    "gate_status": "AUTO_SUBMIT",
+    "sampled": false,
+    "critical_checks": {
+      "CHK_A_ACCOUNT_HOLDER": "PASS",
+      "CHK_A_COOLING_OFF": "PASS",
+      "CHK_A_DISCLAIMER": "PASS",
+      "CHK_A_DMO": "PASS",
+      "CHK_B_ADDRESS": "PASS",
+      "CHK_B_DAILY_SUPPLY": "PASS",
+      "CHK_B_DOB": "PASS",
+      "CHK_B_EMAIL": "PASS",
+      "CHK_B_NMI": "PASS",
+      "CHK_B_PEAK_RATE": "PASS"
+    },
+    "notes": "9 overlapping turns, non-critical CHK_C_INTERRUPTIONS fails, gate unaffected"
+  },
+  {
+    "lead_id": "LEAD_3613801",
+    "gate_status": "HELD",
+    "sampled": false,
+    "critical_checks": {
+      "CHK_A_ACCOUNT_HOLDER": "PASS",
+      "CHK_A_COOLING_OFF": "PASS",
+      "CHK_A_DISCLAIMER": "PASS",
+      "CHK_A_DMO": "PASS",
+      "CHK_B_ADDRESS": "PASS",
+      "CHK_B_DAILY_SUPPLY": "PASS",
+      "CHK_B_DOB": "PASS",
+      "CHK_B_EMAIL": "PASS",
+      "CHK_B_NMI": "PASS",
+      "CHK_B_PEAK_RATE": "FAIL"
+    },
+    "notes": "rate quoted correctly (28.6) but for PLAN_B, not the lead's actual PLAN_A (31.9)"
+  },
+  {
+    "lead_id": "LEAD_3613802",
+    "gate_status": "AUTO_SUBMIT",
+    "sampled": false,
+    "critical_checks": {
+      "CHK_A_ACCOUNT_HOLDER": "PASS",
+      "CHK_A_COOLING_OFF": "PASS",
+      "CHK_A_DISCLAIMER": "PASS",
+      "CHK_A_DMO": "PASS",
+      "CHK_B_ADDRESS": "PASS",
+      "CHK_B_DAILY_SUPPLY": "PASS",
+      "CHK_B_DOB": "PASS",
+      "CHK_B_EMAIL": "PASS",
+      "CHK_B_NMI": "PASS",
+      "CHK_B_PEAK_RATE": "PASS"
+    },
+    "notes": "rate fragments as '31'/'percent'/'9\u00a2' (real observed Deepgram quirk) -> reassembles to 31.9, matches PLAN_A"
+  },
+  {
+    "lead_id": "LEAD_3613803",
+    "gate_status": "QA_REVIEW",
+    "sampled": false,
+    "critical_checks": {
+      "CHK_A_ACCOUNT_HOLDER": "PASS",
+      "CHK_A_COOLING_OFF": "PASS",
+      "CHK_A_DISCLAIMER": "PASS",
+      "CHK_A_DMO": "PASS",
+      "CHK_B_ADDRESS": "PASS",
+      "CHK_B_DAILY_SUPPLY": "PASS",
+      "CHK_B_DOB": "PASS",
+      "CHK_B_EMAIL": "PASS",
+      "CHK_B_NMI": "PASS",
+      "CHK_B_PEAK_RATE": "LOW_CONFIDENCE"
+    },
+    "notes": "rate tokens too garbled to reassemble confidently -> LOW_CONFIDENCE"
+  }
+]
