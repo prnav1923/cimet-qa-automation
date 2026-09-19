@@ -101,7 +101,7 @@ def get_context_window(transcript: Transcript, result: CheckResult, pad: int = 2
     turns = transcript.sorted_turns()
     hit_idx = None
     for i, t in enumerate(turns):
-        if t.start <= ts <= t.end:
+        if t.start <= ts < t.end:
             hit_idx = i
             break
     if hit_idx is None:
