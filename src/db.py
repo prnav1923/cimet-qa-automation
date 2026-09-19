@@ -14,6 +14,12 @@ from src.models import Check, CheckResult, Decision, Lead, Override
 
 DB_PATH = "data/qa.db"
 
+# Deliberately its own file, attached into every connection below, rather
+# than a table in qa.db: qa.db gets deleted routinely during development
+# (`rm -f data/qa.db` to force a clean re-run), which would otherwise wipe
+# every cached Gemini extraction and burn quota re-fetching them.
+LLM_CACHE_DB_PATH = "data/llm_cache.db"
+
 SCHEMA_SQL = """
 CREATE TABLE IF NOT EXISTS checks (
     check_id             TEXT NOT NULL,
@@ -59,7 +65,7 @@ CREATE TABLE IF NOT EXISTS check_results (
     lead_id         TEXT NOT NULL,
     check_id        TEXT NOT NULL,
     check_version   INTEGER NOT NULL,
-    status          TEXT NOT NULL CHECK (status IN ('PASS','FAIL','LOW_CONFIDENCE')),
+    status          TEXT NOT NULL CHECK (status IN ('PASS','FAIL','LOW_CONFIDENCE','NOT_APPLICABLE')),
     confidence      REAL NOT NULL,
     is_critical     INTEGER NOT NULL,
     weight          REAL NOT NULL,
@@ -70,6 +76,9 @@ CREATE TABLE IF NOT EXISTS check_results (
     actual          TEXT,
     detail          TEXT,
     asr_confidence  REAL,
+    line_number     INTEGER,
+    estimated_ts    REAL,
+    estimated_end_ts REAL,
     scored_at       TEXT NOT NULL,
     FOREIGN KEY (lead_id) REFERENCES leads(lead_id)
 );
@@ -106,7 +115,12 @@ CREATE TABLE IF NOT EXISTS auditor_labels (
     PRIMARY KEY (lead_id, check_id, auditor_id)
 );
 
-CREATE TABLE IF NOT EXISTS llm_cache (
+"""
+
+# Lives in the attached llmcache schema (LLM_CACHE_DB_PATH), not in qa.db --
+# see the comment on LLM_CACHE_DB_PATH above.
+LLM_CACHE_SCHEMA_SQL = """
+CREATE TABLE IF NOT EXISTS llmcache.llm_cache (
     input_hash    TEXT PRIMARY KEY,
     response_json TEXT NOT NULL,
     created_at    TEXT NOT NULL
@@ -116,9 +130,17 @@ CREATE TABLE IF NOT EXISTS llm_cache (
 
 def get_connection(db_path: str = DB_PATH) -> sqlite3.Connection:
     Path(db_path).parent.mkdir(parents=True, exist_ok=True)
-    conn = sqlite3.connect(db_path)
+    # check_same_thread=False: the UI caches one connection (st.cache_resource)
+    # across Streamlit reruns, and Streamlit serves each session on its own
+    # thread -- the sqlite3 default would reject that. CLI callers (engine.py,
+    # gate.py) are single-threaded and unaffected by relaxing this.
+    conn = sqlite3.connect(db_path, check_same_thread=False)
     conn.row_factory = sqlite3.Row
     conn.execute("PRAGMA foreign_keys = ON")
+
+    Path(LLM_CACHE_DB_PATH).parent.mkdir(parents=True, exist_ok=True)
+    conn.execute("ATTACH DATABASE ? AS llmcache", (LLM_CACHE_DB_PATH,))
+    conn.executescript(LLM_CACHE_SCHEMA_SQL)
     return conn
 
 
@@ -210,17 +232,27 @@ def insert_check_result(conn: sqlite3.Connection, result: CheckResult) -> None:
         INSERT INTO check_results (
             lead_id, check_id, check_version, status, confidence, is_critical,
             weight, transcript_line, start_ts, end_ts, expected, actual,
-            detail, asr_confidence, scored_at
-        ) VALUES (?,?,?,?,?,?,?,?,?,?,?,?,?,?,?)
+            detail, asr_confidence, line_number, estimated_ts, estimated_end_ts,
+            scored_at
+        ) VALUES (?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?)
         """,
         (
             result.lead_id, result.check_id, result.check_version, result.status,
             result.confidence, int(result.is_critical), result.weight,
             result.transcript_line, result.start_ts, result.end_ts,
             result.expected, result.actual, result.detail, result.asr_confidence,
+            result.line_number, result.estimated_ts, result.estimated_end_ts,
             _iso(result.scored_at),
         ),
     )
+    conn.commit()
+
+
+def delete_check_results_for_lead(conn: sqlite3.Connection, lead_id: str) -> None:
+    """Makes re-scoring a lead idempotent: clear its prior results before
+    inserting fresh ones, so qa.db doesn't accumulate stale duplicate rows
+    across repeated engine runs."""
+    conn.execute("DELETE FROM check_results WHERE lead_id = ?", (lead_id,))
     conn.commit()
 
 
@@ -281,6 +313,12 @@ def get_check_results_for_lead(conn: sqlite3.Connection, lead_id: str) -> list[s
     ).fetchall()
 
 
+def get_overrides_for_lead(conn: sqlite3.Connection, lead_id: str) -> list[sqlite3.Row]:
+    return conn.execute(
+        "SELECT * FROM overrides WHERE lead_id = ? ORDER BY id", (lead_id,)
+    ).fetchall()
+
+
 def get_decision(conn: sqlite3.Connection, lead_id: str) -> sqlite3.Row | None:
     return conn.execute(
         "SELECT * FROM decisions WHERE lead_id = ?", (lead_id,)
@@ -289,14 +327,14 @@ def get_decision(conn: sqlite3.Connection, lead_id: str) -> sqlite3.Row | None:
 
 def get_llm_cache(conn: sqlite3.Connection, input_hash: str) -> sqlite3.Row | None:
     return conn.execute(
-        "SELECT * FROM llm_cache WHERE input_hash = ?", (input_hash,)
+        "SELECT * FROM llmcache.llm_cache WHERE input_hash = ?", (input_hash,)
     ).fetchone()
 
 
 def set_llm_cache(conn: sqlite3.Connection, input_hash: str, response_json: str) -> None:
     conn.execute(
         """
-        INSERT INTO llm_cache (input_hash, response_json, created_at)
+        INSERT INTO llmcache.llm_cache (input_hash, response_json, created_at)
         VALUES (?, ?, ?)
         ON CONFLICT (input_hash) DO UPDATE SET
             response_json=excluded.response_json, created_at=excluded.created_at

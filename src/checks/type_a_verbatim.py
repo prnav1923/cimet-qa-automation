@@ -75,15 +75,25 @@ def score_type_a(check: Check, lead: Lead) -> CheckResult:
     span_words = words[start_idx:end_idx]
     span_text = " ".join(w.punctuated or w.text for w in span_words)
     span_min_conf = min(w.confidence for w in span_words)
-    start_ts = span_words[0].start
-    end_ts = span_words[-1].end
+
+    # Measured timing (synthetic/Deepgram) populates start_ts/end_ts; a
+    # no-audio, estimated-timing transcript populates the estimated_* fields
+    # instead -- never both, so the UI can't present an estimate as measured.
+    timing_fields = {}
+    if transcript.has_word_timings:
+        timing_fields["start_ts"] = span_words[0].start
+        timing_fields["end_ts"] = span_words[-1].end
+    else:
+        timing_fields["line_number"] = span_words[0].line_number
+        timing_fields["estimated_ts"] = span_words[0].start
+        timing_fields["estimated_end_ts"] = span_words[-1].end
 
     if similarity >= check.pass_at:
         if span_min_conf < check.min_word_confidence:
             low_conf_word = min(span_words, key=lambda w: w.confidence)
             return CheckResult(
                 **base, status="LOW_CONFIDENCE", confidence=similarity,
-                transcript_line=span_text, start_ts=start_ts, end_ts=end_ts,
+                transcript_line=span_text, **timing_fields,
                 actual=span_text, asr_confidence=span_min_conf,
                 detail=(
                     f"Matched with {similarity:.0%} similarity, but downgraded: "
@@ -94,7 +104,7 @@ def score_type_a(check: Check, lead: Lead) -> CheckResult:
             )
         return CheckResult(
             **base, status="PASS", confidence=similarity,
-            transcript_line=span_text, start_ts=start_ts, end_ts=end_ts,
+            transcript_line=span_text, **timing_fields,
             actual=span_text, asr_confidence=span_min_conf,
             detail=f"Matched with {similarity:.0%} similarity.",
         )
@@ -102,7 +112,7 @@ def score_type_a(check: Check, lead: Lead) -> CheckResult:
     if similarity <= check.fail_at:
         return CheckResult(
             **base, status="FAIL", confidence=similarity,
-            transcript_line=span_text, start_ts=start_ts, end_ts=end_ts,
+            transcript_line=span_text, **timing_fields,
             actual=span_text, asr_confidence=span_min_conf,
             detail=(
                 f"Best match similarity only {similarity:.0%}, at or below "
@@ -112,7 +122,7 @@ def score_type_a(check: Check, lead: Lead) -> CheckResult:
 
     return CheckResult(
         **base, status="LOW_CONFIDENCE", confidence=similarity,
-        transcript_line=span_text, start_ts=start_ts, end_ts=end_ts,
+        transcript_line=span_text, **timing_fields,
         actual=span_text, asr_confidence=span_min_conf,
         detail=(
             f"Similarity {similarity:.0%} is between fail_at "

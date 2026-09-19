@@ -1,0 +1,58 @@
+{
+  "retailer_id": "CIMET_REAL",
+  "retailer_name": "CIMET broadband sale (real transcript, drafted checklist)",
+  "checks": [
+    {
+      "check_id": "CHK_A_DISCLAIMER", "version": 1, "type": "A",
+      "description": "Recording disclaimer read",
+      "is_critical": true, "weight": 3.0,
+      "effective_from": "2025-01-01", "effective_to": null,
+      "expected_script_text": "This call will be recorded for quality assurance and training purposes.",
+      "pass_at": 0.80, "fail_at": 0.55, "min_word_confidence": 0.0,
+      "provenance": {"expected_script_text": "drafted_by_us -- CIMET did not supply an approved script; drafted from the agent's actual wording on this call"}
+    },
+    {
+      "check_id": "CHK_A_IDENTITY", "version": 1, "type": "A",
+      "description": "Identity verified: first and last name as per ID",
+      "is_critical": true, "weight": 3.0,
+      "effective_from": "2025-01-01", "effective_to": null,
+      "expected_script_text": "Can you please verify your first and last name as per ID?",
+      "pass_at": 0.80, "fail_at": 0.55, "min_word_confidence": 0.0,
+      "provenance": {"expected_script_text": "drafted_by_us -- drafted from the agent's actual wording on this call"}
+    },
+    {
+      "check_id": "CHK_B_TOTAL_COST", "version": 1, "type": "B",
+      "description": "the total minimum cost of the plan",
+      "is_critical": true, "weight": 3.0,
+      "effective_from": "2025-01-01", "effective_to": null,
+      "comparator": "consistency", "tolerance": 0.01,
+      "params": {
+        "extract_a": "the total minimum cost as first stated by the agent while describing the plan (expected to be around $42.90, described as having no setup fee and no additional cost)",
+        "extract_b": "the total minimum cost as later shown on the online application/order form that the customer is reading from their own screen (may be a different, much larger figure)"
+      },
+      "provenance": {"check": "drafted_by_us -- self-consistency check, not a CRM/plan ground-truth comparison; no real check library exists for this retailer"}
+    },
+    {
+      "check_id": "CHK_B_PROMO_PRICE", "version": 1, "type": "B",
+      "description": "the promotional price and the price it reverts to afterward",
+      "is_critical": true, "weight": 3.0,
+      "effective_from": "2025-01-01", "effective_to": null,
+      "comparator": "consistency", "tolerance": 0.01,
+      "params": {
+        "extract_a": "the discounted/promotional monthly price for the first six months, as FIRST stated by the agent (expected to be around $42.90)",
+        "extract_b": "the discounted/promotional monthly price for the first six months, as stated AGAIN later in the call (expected to be around $42.90)",
+        "extract_a2": "the regular price the plan reverts to after the promotional period ends, as FIRST stated by the agent (expected to be around $72.90)",
+        "extract_b2": "the regular price the plan reverts to after the promotional period ends, as stated AGAIN later in the call (expected to be around $72.90)"
+      },
+      "provenance": {"check": "drafted_by_us -- checks the promo price is stated the same way every time it recurs, and separately that the revert price is too; NOT a comparison of promo vs revert (those are legitimately different numbers)"}
+    },
+    {
+      "check_id": "CHK_GUARDRAIL_MUTE", "version": 1, "type": "C",
+      "description": "Recording muted before payment details were collected, resumed after",
+      "is_critical": true, "weight": 3.0,
+      "effective_from": "2025-01-01", "effective_to": null,
+      "params": {"guardrail": "mute_before_payment"},
+      "provenance": {"check": "drafted_by_us -- the no-card-data-by-voice boundary: confirms the agent muted before collecting payment and resumed after, so no card details are ever in the recording"}
+    }
+  ]
+}

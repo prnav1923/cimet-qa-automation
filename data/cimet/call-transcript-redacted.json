@@ -1,0 +1,604 @@
+{
+  "lines": [
+    {
+      "line_number": 1,
+      "speaker_label": "Speaker 1",
+      "text": "Hello. [CUSTOMER_NAME] speaking."
+    },
+    {
+      "line_number": 2,
+      "speaker_label": "Speaker 2",
+      "text": "Yes. Hi, [CUSTOMER_NAME]. Good day. This is [AGENT_NAME] from Internet's comparison. How are you?"
+    },
+    {
+      "line_number": 3,
+      "speaker_label": "Speaker 1",
+      "text": "Good. Thanks. How are you?"
+    },
+    {
+      "line_number": 4,
+      "speaker_label": "Speaker 2",
+      "text": "Yeah. I'm good. Thank you. And we noticed that you're looking for better Internet plans, and we're calling to assist you with this.Yeah.K. And as I check it, your address is [SERVICE_ADDRESS] Correct. [UNCLEAR_NAME]. Yep. [SERVICE_ADDRESS]. K. By the way, please be advised that this call will be recorded for quality assuranceand, training purposes. K? Nowlet me double check the address. Bear with me.There you go. As I check it yeah. The address is already an NBN ready, fiber to the premises technology. Okay? Now just to ask, [CUSTOMER_NAME], who's your current Internet service provider? Do you have one?IPRIMUS.You are currently with iPRIMUS.How much are you paying?"
+    },
+    {
+      "line_number": 5,
+      "speaker_label": "Speaker 1",
+      "text": "They reduced it today to sixty five. That's all right here."
+    },
+    {
+      "line_number": 6,
+      "speaker_label": "Speaker 2",
+      "text": "Sixty five dollars for how many MBPS? Do you know the speed? How do you care? Twenty five.Twenty five Mbps?Yeah.Okay.And how many people are using the Internet?Just myself.Are you used to Internet? Are you do gaming,video streaming?"
+    },
+    {
+      "line_number": 7,
+      "speaker_label": "Speaker 1",
+      "text": "Work from home? Yeah. I do. No. I don't work from home. I just watch, you know, Netflix and that sort of stuff, andI've seen my,TV still at, like, channel seven channel nine, whatever. Okay. I stream that through the Internet."
+    },
+    {
+      "line_number": 8,
+      "speaker_label": "Speaker 2",
+      "text": "And do you need the home phone line?Do you need a landline or no?"
+    },
+    {
+      "line_number": 9,
+      "speaker_label": "Speaker 1",
+      "text": "No."
+    },
+    {
+      "line_number": 10,
+      "speaker_label": "Speaker 2",
+      "text": "Okay. Because I just want to tell you, I can give you a twenty five MBBS for,only forty two dollars and ninetyMhmm. For the first six months."
+    },
+    {
+      "line_number": 11,
+      "speaker_label": "Speaker 1",
+      "text": "Yep. And then what does it go up to?"
+    },
+    {
+      "line_number": 12,
+      "speaker_label": "Speaker 2",
+      "text": "Seventy two dollars and ninety. That's the regular price. Yeah. See, I'm I'm beyond that. But with that, I"
+    },
+    {
+      "line_number": 13,
+      "speaker_label": "Speaker 1",
+      "text": "might save myself twenty dollars a month for six months, butthen it's then I have seven dollars a month here."
+    },
+    {
+      "line_number": 14,
+      "speaker_label": "Speaker 2",
+      "text": "I'm going on. But So you're notno last in contract with the plan. It's just a month to month contract.I mean Yeah. Before the six weeks expire,you can visit again our website and see if we can give you another set of promotion of this, ma'am."
+    },
+    {
+      "line_number": 15,
+      "speaker_label": "Speaker 1",
+      "text": "Yeah. Yeah. Maybe I'll juststay where I am. I couldn't be bothered because I have to paynot much savings."
+    },
+    {
+      "line_number": 16,
+      "speaker_label": "Speaker 2",
+      "text": "I really understand. Again, that's still Okay.Twenty dollars.I can also give you a free modem with thatwith no extra cost."
+    },
+    {
+      "line_number": 17,
+      "speaker_label": "Speaker 1",
+      "text": "Who is that through?"
+    },
+    {
+      "line_number": 18,
+      "speaker_label": "Speaker 2",
+      "text": "That is from [PROVIDER_A]."
+    },
+    {
+      "line_number": 19,
+      "speaker_label": "Speaker 1",
+      "text": "Right. [PROVIDER_A].So free modemYep. And forty nine dollars a month for forty two dollars a month. Dollars.Yeah.Do I get a check for it?"
+    },
+    {
+      "line_number": 20,
+      "speaker_label": "Speaker 2",
+      "text": "No. All the NBN,all all the NBN plans, they're using only one network, all the retailers. That's the NBN phone.K? But for thethe mobile SIM plan, kindly use it at Telstra network."
+    },
+    {
+      "line_number": 21,
+      "speaker_label": "Speaker 1",
+      "text": "I can.And would it be a new modemor a refurbished one?"
+    },
+    {
+      "line_number": 22,
+      "speaker_label": "Speaker 2",
+      "text": "So that's the brand new modembrand new modem. It's all yours.It's hundred percent free. Even you switch provider,even you move to a different property,you can keep and use the same modem."
+    },
+    {
+      "line_number": 23,
+      "speaker_label": "Speaker 1",
+      "text": "No need to repair. Happens if what happens if at the end of six months when it goes up to seventy two dollarsand I change,do I get to get the modemor do I get to the account then? No. No."
+    },
+    {
+      "line_number": 24,
+      "speaker_label": "Speaker 2",
+      "text": "You it's hundred percent free. It's all yours. Even you switch provider,even you move to a different property,you can use and keep it. No need to return it. K? Again, it's hundred percent free."
+    },
+    {
+      "line_number": 25,
+      "speaker_label": "Speaker 1",
+      "text": "Okay. So how does it how does it work? How does how doesget changed over?"
+    },
+    {
+      "line_number": 26,
+      "speaker_label": "Speaker 2",
+      "text": "No. We can quickly set this up for you without paying any status fee.K? NowI just want to tell you that how do I get the modem?Yeah. It will be delivered to you within three to five business days."
+    },
+    {
+      "line_number": 27,
+      "speaker_label": "Speaker 1",
+      "text": "Okay. And is there a cost involved in having it delivered?"
+    },
+    {
+      "line_number": 28,
+      "speaker_label": "Speaker 2",
+      "text": "No. It's hundred percent. No extra cost."
+    },
+    {
+      "line_number": 29,
+      "speaker_label": "Speaker 1",
+      "text": "Okay.Alright. Yep. Sounds like a good deal."
+    },
+    {
+      "line_number": 30,
+      "speaker_label": "Speaker 2",
+      "text": "Yeah. That's why we can quickly set it up for you so you can get the free modem,k, within three to five business days. Now I just want to tell you that again, here are some detail, here here are some more details about it, ma'am. This value plan from [PROVIDER_A]helps with comes with a one to one contract only and, again, provides twenty five Mbps typical in download speed and eight point five Mbps typical in the upload speed from seven PM to eleven PM. Again, the original plan cost is seventy two dollars and ninety per month, but we have an offer ongoing where you will get this plan as forty two dollars and ninety only per month for the first six months and then seventy two dollars and ninety. K? And then,I just want to tell you that the modem that you will receive is the Netcom CF forty Wi Fi six modem. K? Again, it's hundred percent free. No extra cost. It's all yours. K? And then the good thing with the modem, [CUSTOMER_NAME], it's suitable for FTTT,HFC,FTTs, and fixed wireless connection types. That means it's almost compatible to all NBN plans. K? And this is already a Wi Fi six modem.It's already preconfigured. That means it's plugged and free. K? And it's still used in the twenty ten. Okay? So the delivery of the modem into a PowerPointwhen I get it? You just did And it's good to go. K?"
+    },
+    {
+      "line_number": 31,
+      "speaker_label": "Speaker 1",
+      "text": "Okay. So there's no setting up or anything like that. You just plug it in? Yep."
+    },
+    {
+      "line_number": 32,
+      "speaker_label": "Speaker 2",
+      "text": "Because it's already preconfigured to [PROVIDER_A]. K? That's why you you don't need to reconfigure it. K? Okay. Yep.And then again, the total minimum cost will be forty two dollars and ninety only. No setup fee. No any additional cost. K?Yep.And this will be under your name. Am I correct?Yes.How do you want to address your name, dismissed or missus, or do you have any title?"
+    },
+    {
+      "line_number": 33,
+      "speaker_label": "Speaker 1",
+      "text": "Missus [CUSTOMER_NAME].Yeah. [CUSTOMER_FULL_NAME]."
+    },
+    {
+      "line_number": 34,
+      "speaker_label": "Speaker 2",
+      "text": "Yeah. Can you please verify again your first and last name as per ID, please?"
+    },
+    {
+      "line_number": 35,
+      "speaker_label": "Speaker 1",
+      "text": "Sorry. I didn't get that."
+    },
+    {
+      "line_number": 36,
+      "speaker_label": "Speaker 2",
+      "text": "Can you please verify your first and last name as per ID?"
+    },
+    {
+      "line_number": 37,
+      "speaker_label": "Speaker 1",
+      "text": "[CUSTOMER_FULL_NAME]."
+    },
+    {
+      "line_number": 38,
+      "speaker_label": "Speaker 2",
+      "text": "[CUSTOMER_NAME] or [CUSTOMER_NAME]?"
+    },
+    {
+      "line_number": 39,
+      "speaker_label": "Speaker 1",
+      "text": "Well, I go by [CUSTOMER_NAME]."
+    },
+    {
+      "line_number": 40,
+      "speaker_label": "Speaker 2",
+      "text": "[CUSTOMER_NAME]. Okay. [CUSTOMER_NAME]. Yeah.Okay. But, again,[CUSTOMER_NAME]. Right? Because that is the exact bill that you will,you will see on the bill.K? Yep. Mhmm. Missus [CUSTOMER_FULL_NAME]. Right?Yes.Okay. And then your email address, can you please also verify it? It's [EMAIL].Thank you. And then your mobile number, can you please also verify it?"
+    },
+    {
+      "line_number": 41,
+      "speaker_label": "Speaker 1",
+      "text": "[PHONE]."
+    },
+    {
+      "line_number": 42,
+      "speaker_label": "Speaker 2",
+      "text": "Okay. And your date of birth?"
+    },
+    {
+      "line_number": 43,
+      "speaker_label": "Speaker 1",
+      "text": "[DOB]."
+    },
+    {
+      "line_number": 44,
+      "speaker_label": "Speaker 2",
+      "text": "Okay. And then do you want to add a secondary mobile number?"
+    },
+    {
+      "line_number": 45,
+      "speaker_label": "Speaker 1",
+      "text": "Sorry. What was that?"
+    },
+    {
+      "line_number": 46,
+      "speaker_label": "Speaker 2",
+      "text": "Do you want to add a secondary mobile number or alternate mobile number?No. Okay.And you are currently with I Primus. Right?"
+    },
+    {
+      "line_number": 47,
+      "speaker_label": "Speaker 1",
+      "text": "That's correct. Yes."
+    },
+    {
+      "line_number": 48,
+      "speaker_label": "Speaker 2",
+      "text": "Are you able to pull up your I Primus bill or no? Right now? Hang yep. Hang on.Yes, please."
+    },
+    {
+      "line_number": 49,
+      "speaker_label": "Speaker 1",
+      "text": "Yep. Got [ACCOUNT_NUMBER]."
+    },
+    {
+      "line_number": 50,
+      "speaker_label": "Speaker 2",
+      "text": "Can you please check if you can see the a b c ID?A b c ID."
+    },
+    {
+      "line_number": 51,
+      "speaker_label": "Speaker 1",
+      "text": "A b c?"
+    },
+    {
+      "line_number": 52,
+      "speaker_label": "Speaker 2",
+      "text": "Yep. A b c I d."
+    },
+    {
+      "line_number": 53,
+      "speaker_label": "Speaker 1",
+      "text": "I got issue date. I've seen that balance.Clear button.Customer number? Is that it?"
+    },
+    {
+      "line_number": 54,
+      "speaker_label": "Speaker 2",
+      "text": "No. ABC IDs.You can,you can check it, but if it's not visible, it's okay."
+    },
+    {
+      "line_number": 55,
+      "speaker_label": "Speaker 1",
+      "text": "I've got Internet service number."
+    },
+    {
+      "line_number": 56,
+      "speaker_label": "Speaker 2",
+      "text": "It's okay if you don't see it. That means it's not visible on the bill."
+    },
+    {
+      "line_number": 57,
+      "speaker_label": "Speaker 1",
+      "text": "Yeah. No. I I can't see it anywhere there. It's okay. And then again,"
+    },
+    {
+      "line_number": 58,
+      "speaker_label": "Speaker 2",
+      "text": "the connection address will be [SERVICE_ADDRESS]. Correct? Yeah. And how how soon do you want your connection to be at the address? As soon as possible, or do you prefer the same? As soon as possible.As soon as possible. Okay. And, do you want your modem to be delivered at the same address, or do you want a different address?Same address? Same address. Yeah. Okay. Again, the delivery will be three to five business days. K?"
+    },
+    {
+      "line_number": 59,
+      "speaker_label": "Speaker 1",
+      "text": "Yeah.No. Just mhmm. Just with with the delivery,of the modem, the [STREET_NAME]entrance is closed at the moment. Sothey will have to come to [DELIVERY_ADDRESS].There's two entrances.[DELIVERY_ADDRESS]."
+    },
+    {
+      "line_number": 60,
+      "speaker_label": "Speaker 2",
+      "text": "I see. Okay."
+    },
+    {
+      "line_number": 61,
+      "speaker_label": "Speaker 1",
+      "text": "Yeah. Because I can't get you in the pre code."
+    },
+    {
+      "line_number": 62,
+      "speaker_label": "Speaker 2",
+      "text": "I see. Okay.It's already noted. Okay? Now, again, to set up your account, [CUSTOMER_NAME], we need to collect your preferred payment method. Are you using a credit card or debit card?"
+    },
+    {
+      "line_number": 63,
+      "speaker_label": "Speaker 1",
+      "text": "And my what, sir?"
+    },
+    {
+      "line_number": 64,
+      "speaker_label": "Speaker 2",
+      "text": "I again, to set up your account, we need to collect your preferred payment method because this will be direct debitedevery month from the account from the account. Mhmm."
+    },
+    {
+      "line_number": 65,
+      "speaker_label": "Speaker 1",
+      "text": "Okay."
+    },
+    {
+      "line_number": 66,
+      "speaker_label": "Speaker 2",
+      "text": "Are youokay. But before that, I need to mute the recording. K?Okay. The recording is already resumed. Now mhmm.Can you please,do you have access on your email right now? Right?"
+    },
+    {
+      "line_number": 67,
+      "speaker_label": "Speaker 1",
+      "text": "Yes. I do."
+    },
+    {
+      "line_number": 68,
+      "speaker_label": "Speaker 2",
+      "text": "Okay. I'm not sending in.Okay. Can you please check? I just sent it, I think ten minutes ago, the email.Just let me know if you repeat. It's from Equinix comparison."
+    },
+    {
+      "line_number": 69,
+      "speaker_label": "Speaker 1",
+      "text": "Yep.Yep. Correct. Yep."
+    },
+    {
+      "line_number": 70,
+      "speaker_label": "Speaker 2",
+      "text": "Yeah. Open the email and then click view plan."
+    },
+    {
+      "line_number": 71,
+      "speaker_label": "Speaker 1",
+      "text": "Yeah."
+    },
+    {
+      "line_number": 72,
+      "speaker_label": "Speaker 2",
+      "text": "Okay. After you click view plan,you will see the plan details. Right?"
+    },
+    {
+      "line_number": 73,
+      "speaker_label": "Speaker 1",
+      "text": "Yep. So you're in the Yep. Travel there, and travel."
+    },
+    {
+      "line_number": 74,
+      "speaker_label": "Speaker 2",
+      "text": "So on the lower part of it, can you please click apply now?Yes.Okay. After you click apply now yep. Click apply now, and it will load,and you will go to the modem.K? Now on the modem,can you please look for the Netcom p s forty Wi Fi six modem?"
+    },
+    {
+      "line_number": 75,
+      "speaker_label": "Speaker 1",
+      "text": "The Wi Fi six pre configured. Is that the one?"
+    },
+    {
+      "line_number": 76,
+      "speaker_label": "Speaker 2",
+      "text": "Yeah. The Netcom CF forty Wi Fi six. Right? CF forty Wi Fi six.Yep. Do you see the zero dollar upfront? Right? Yep. Yep. Yep. Yeah. Can you please select it? Make sure that you selected it."
+    },
+    {
+      "line_number": 77,
+      "speaker_label": "Speaker 1",
+      "text": "Yep. I've selected that."
+    },
+    {
+      "line_number": 78,
+      "speaker_label": "Speaker 2",
+      "text": "Okay. And then after that, scroll it down.Yep.Now you will see the total minimum cost of three hundred seventeen dollars. Right?"
+    },
+    {
+      "line_number": 79,
+      "speaker_label": "Speaker 1",
+      "text": "Yeah."
+    },
+    {
+      "line_number": 80,
+      "speaker_label": "Speaker 2",
+      "text": "Yep. You don't have to worry. If you will see the new development fee, right, of two hundred seventy five dollars,You don't have to worry.You will not pay for that because your address is already an NBN ready. That is only applicablefor a newly built house. K? Because they need to install the NBN infrastructure of the address. That's why if you can see, the June development fee, there's aopen and close parenthesisifapplicable.K?But your address is not applicable for that. K? So you just need the payment. And then click next personal detail."
+    },
+    {
+      "line_number": 81,
+      "speaker_label": "Speaker 1",
+      "text": "Yep. Next address details?"
+    },
+    {
+      "line_number": 82,
+      "speaker_label": "Speaker 2",
+      "text": "Yeah. Make sure all the information are correct, and then click next address detail.It's still showing that minimum cost of three hundred and seventeen, but don't worry about that. I understand. It's okay. You don't need to worry. Okay? It will not be charged the two hundred seven dollars.And then,next address, you will see the address.Yeah. You will see, next address yep. You will need to, select as soon as possibleon the connection date.Andthenon the delivery of the modem, selectyes. K?I mean, the the the, thethe address of the delivery."
+    },
+    {
+      "line_number": 83,
+      "speaker_label": "Speaker 1",
+      "text": "Okay. So do you want the modem to be delivered at the current address? Click no? Yes. Select yes. No. Select yes. Because it will be the same address. Right? It will be delivered at the same address. No. They've got a delivery to [DELIVERY_ADDRESS]."
+    },
+    {
+      "line_number": 84,
+      "speaker_label": "Speaker 2",
+      "text": "I see.Okay. Can you please, select no?Yep. Click no and then select the exact address. K? Yeah."
+    },
+    {
+      "line_number": 85,
+      "speaker_label": "Speaker 1",
+      "text": "[DELIVERY_ADDRESS].Opt"
+    },
+    {
+      "line_number": 86,
+      "speaker_label": "Speaker 2",
+      "text": "Just let me know if you have any additional questions. K?"
+    },
+    {
+      "line_number": 87,
+      "speaker_label": "Speaker 1",
+      "text": "It says addressaddress not found. Please enter correct addressor enter it manually. So I've entered it manually. Right. [UNCLEAR_NAME], can you please enter it manually?"
+    },
+    {
+      "line_number": 88,
+      "speaker_label": "Speaker 2",
+      "text": "That"
+    },
+    {
+      "line_number": 89,
+      "speaker_label": "Speaker 1",
+      "text": "I'm trying to stop not still. I'm trying to k.It's still coming up with that. I'll put my card details in."
+    },
+    {
+      "line_number": 90,
+      "speaker_label": "Speaker 2",
+      "text": "So it's still coming up with that three hundred and seventeen dollars, but don't worry about that. I see. You don't need to worry. I really guarantee you it will not be charged. K? Okay. So You need to only forty forty two dollars. Detail?Yep. Click next review details. Make sure that the, you,tick the boxesthat you agree. Yep."
+    },
+    {
+      "line_number": 91,
+      "speaker_label": "Speaker 1",
+      "text": "Mhmm.Yep."
+    },
+    {
+      "line_number": 92,
+      "speaker_label": "Speaker 2",
+      "text": "Nah. Just me. And you will seemhmm."
+    },
+    {
+      "line_number": 93,
+      "speaker_label": "Speaker 1",
+      "text": "I'll just try putting it in again."
+    },
+    {
+      "line_number": 94,
+      "speaker_label": "Speaker 2",
+      "text": "Again, what is the delivery address? Can you please tell me?"
+    },
+    {
+      "line_number": 95,
+      "speaker_label": "Speaker 1",
+      "text": "It's [DELIVERY_ADDRESS]."
+    },
+    {
+      "line_number": 96,
+      "speaker_label": "Speaker 2",
+      "text": "Okay.Okay. Can do it. Yeah. It's okay. Can you please select,can you please selectyes. I will be the one who will change the delivery address. K? So you will not be worried. Again,[SERVICE_ADDRESS]. Right?[SERVICE_ADDRESS]? No. No."
+    },
+    {
+      "line_number": 97,
+      "speaker_label": "Speaker 1",
+      "text": "No. The address for [STREET_NAME] is [SERVICE_ADDRESS]."
+    },
+    {
+      "line_number": 98,
+      "speaker_label": "Speaker 2",
+      "text": "Okay.Hang on. That might let me delivery address?"
+    },
+    {
+      "line_number": 99,
+      "speaker_label": "Speaker 1",
+      "text": "Hang on. Let me [DELIVERY_ADDRESS].Yeah. It's because it's a,[RESIDENTIAL_COMPLEX], and there's two entrances.And one entrance the [STREET_NAME] entrance is closed at the moment,so you can't get up that road."
+    },
+    {
+      "line_number": 100,
+      "speaker_label": "Speaker 2",
+      "text": "I see. Because"
+    },
+    {
+      "line_number": 101,
+      "speaker_label": "Speaker 1",
+      "text": "It's okay. It's I think it's allowing me to put it inbit by bit."
+    },
+    {
+      "line_number": 102,
+      "speaker_label": "Speaker 2",
+      "text": "Okay. [SERVICE_ADDRESS]."
+    },
+    {
+      "line_number": 103,
+      "speaker_label": "Speaker 1",
+      "text": "[SERVICE_ADDRESS]"
+    },
+    {
+      "line_number": 104,
+      "speaker_label": "Speaker 2",
+      "text": "."
+    },
+    {
+      "line_number": 105,
+      "speaker_label": "Speaker 1",
+      "text": "Okay. So a text message, [OTP_CODE]."
+    },
+    {
+      "line_number": 106,
+      "speaker_label": "Speaker 2",
+      "text": "Mhmm. And then click submit application.Just let me know if you already have the reference number."
+    },
+    {
+      "line_number": 107,
+      "speaker_label": "Speaker 1",
+      "text": "Yep."
+    },
+    {
+      "line_number": 108,
+      "speaker_label": "Speaker 2",
+      "text": "What is the reference number?"
+    },
+    {
+      "line_number": 109,
+      "speaker_label": "Speaker 1",
+      "text": "[REFERENCE_NUMBER]."
+    },
+    {
+      "line_number": 110,
+      "speaker_label": "Speaker 2",
+      "text": "Thank you for that. That means that you already take advantage of the offer. Okay?"
+    },
+    {
+      "line_number": 111,
+      "speaker_label": "Speaker 1",
+      "text": "Yeah.So this is an Ambien. Yeah."
+    },
+    {
+      "line_number": 112,
+      "speaker_label": "Speaker 2",
+      "text": "That is an Ambien. K? Yeah. Yeah. Yeah.Okay. Congratulationsfor choosing [PROVIDER_A]. You need to wait for the delivery of the modem. It will be three to five business days. K? And after that, you can activate and connect it. And then now since we already help you with your Internet, how about your electricity and gas? Maybe we could also give you a picture of that. No. I don't have gas, and my electricity"
+    },
+    {
+      "line_number": 113,
+      "speaker_label": "Speaker 1",
+      "text": "is all,With aircon? I buy it off the complex that I live in. It doesn't go through I see. So it's embedded. Or anything like that. Yeah."
+    },
+    {
+      "line_number": 114,
+      "speaker_label": "Speaker 2",
+      "text": "I see. Okay. If that's the case here, again, [CUSTOMER_NAME], congratulations for choosing [PROVIDER_A].Thank you also for choosing Econnex Comparison. Do you have another question?"
+    },
+    {
+      "line_number": 115,
+      "speaker_label": "Speaker 1",
+      "text": "No. Do you have acontact phone number I can contact you on if"
+    },
+    {
+      "line_number": 116,
+      "speaker_label": "Speaker 2",
+      "text": "I have You will see it,on the, yeah. You will see it on the,you will see the page of the reference number. Right? Below that, you will see all the contact number that you can contact. K?"
+    },
+    {
+      "line_number": 117,
+      "speaker_label": "Speaker 1",
+      "text": "Yeah. Okay. Yep."
+    },
+    {
+      "line_number": 118,
+      "speaker_label": "Speaker 2",
+      "text": "Yep. This is it?Okay. Thank you. From the lower price. Okay. Yeah. Again, thank you also, [CUSTOMER_NAME]. Okay? Congratulations.This is [AGENT_NAME] again from Equinix Comparison. Again, it was a pleasure to help you out. K? Cheers, and have a wonderful day."
+    },
+    {
+      "line_number": 119,
+      "speaker_label": "Speaker 1",
+      "text": "Okay. Thank you."
+    },
+    {
+      "line_number": 120,
+      "speaker_label": "Speaker 2",
+      "text": "You're welcome.Bye for now. Bye."
+    }
+  ]
+}

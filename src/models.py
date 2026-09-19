@@ -8,7 +8,12 @@ from datetime import date, datetime
 from typing import Any, Literal, Optional
 
 CheckType = Literal["A", "B", "C"]  # verbatim | factual | behaviour
-Status = Literal["PASS", "FAIL", "LOW_CONFIDENCE"]
+# NOT_APPLICABLE: the check cannot be evaluated with the data supplied (e.g. a
+# duration-based check against a no-audio, estimated-timing transcript). On a
+# critical check it routes to a human like LOW_CONFIDENCE; on a non-critical
+# check it is excluded from scoring and shown as "not evaluable with supplied
+# data" -- it must never silently block AUTO_SUBMIT on its own.
+Status = Literal["PASS", "FAIL", "LOW_CONFIDENCE", "NOT_APPLICABLE"]
 GateStatus = Literal["AUTO_SUBMIT", "HELD", "QA_REVIEW"]
 
 
@@ -23,6 +28,7 @@ class Word:
     speaker: Optional[int] = None
     speaker_confidence: float = 0.0  # often 0.3-0.5 even when correct
     punctuated: str = ""  # for display; falls back to text
+    line_number: Optional[int] = None  # source row, for no-audio transcripts
 
     @property
     def duration(self) -> float:
@@ -39,6 +45,7 @@ class Turn:
     end: float
     confidence: float = 1.0
     words: list[Word] = field(default_factory=list)
+    line_number: Optional[int] = None  # source row, for no-audio transcripts
 
     @property
     def mean_word_confidence(self) -> float:
@@ -143,6 +150,12 @@ class CheckResult:
     actual: Optional[str] = None
     detail: str = ""  # short human reason, shown in the UI
     asr_confidence: Optional[float] = None  # min word conf in matched span
+    # No-audio (estimated) timing: mutually exclusive with start_ts/end_ts.
+    # Populated instead of start_ts/end_ts when the source transcript has no
+    # measured timing -- never both, so a UI can't mistake one for the other.
+    line_number: Optional[int] = None
+    estimated_ts: Optional[float] = None
+    estimated_end_ts: Optional[float] = None
     scored_at: datetime = field(default_factory=datetime.utcnow)
 
 

@@ -6,3 +6,4 @@ anthropic
 python-dateutil
 python-dotenv
 pytest
+pdfplumber  # recon-only: extracts data/cimet/*.pdf into a parseable JSON fixture, not used by the live engine

@@ -72,7 +72,7 @@ me what environment difference could explain it before changing any code.
 | Fuzzy matching | `rapidfuzz` |
 | Audio slicing | `pydub` |
 | UI | Streamlit |
-| LLM (Type B extraction only) | Anthropic API, structured JSON output |
+| LLM (Type B extraction only) | **Groq REST API** (`openai/gpt-oss-120b`, OpenAI-compatible `/chat/completions`, `response_format: {"type": "json_object"}`) — called via `requests`, no SDK, same reasoning as Deepgram. History: Anthropic (no key) → Gemini (hit its free-tier 20-requests/day wall) → Groq. `llama-3.3-70b-versatile` is not on this Groq account (confirmed via `GET /v1/models`, not guessed) — `openai/gpt-oss-120b` is. The provider sits behind one seam (`_call_llm` in `type_b_factual.py`) so swapping it again touches only that function. |
 | Config | Plain dicts / JSON. No YAML, no pydantic-settings. |
 
 Do not introduce: Docker, FastAPI, Postgres, LangChain, vector DBs, ORMs, async
@@ -116,6 +116,33 @@ These come from an actual test run. Build for them; do not assume a cleaner worl
    right. Treat speaker labels as a hint. Never make a critical check depend
    solely on who was labelled as speaking.
 
+## Verified facts about the real CIMET transcript
+
+D0 recon on CIMET's actual supplied transcript (`data/cimet/`) found a
+completely different shape from the Deepgram/synthetic path. Build for this;
+do not assume it looks like the fixtures.
+
+1. **No audio, no timings at all** — not even turn-level. It's a plain
+   "Speaker N / paragraph" table. `load_transcript()` derives ESTIMATED word
+   timestamps from position at ~150wpm and sets `has_word_timings=False`, so
+   nothing downstream can mistake an estimate for a measurement.
+   `CheckResult` carries the estimate in `estimated_ts`/`estimated_end_ts` and
+   `line_number`, never in `start_ts`/`end_ts` — those stay `None` for this
+   source. The UI must label these "estimated — no audio supplied".
+2. **Speaker separation is unreliable.** The other party's actual words
+   routinely appear inside a turn with no break (e.g. a "Speaker 2" row
+   containing the customer's "Correct.", "Yep.", "IPRIMUS." mid-paragraph,
+   unlabelled). Verbatim checks must search the whole transcript, never
+   agent-only turns. Turn-level speaker labels are still resolved (whoever
+   says the recording disclaimer is AGENT) but must never be trusted as a
+   clean speaker boundary within a turn.
+3. **`CHK_C_DEAD_AIR` is always `NOT_APPLICABLE` on this source** — it
+   requires measured silence, which doesn't exist here. Talk ratio falls back
+   to a word-count method (labelled as such); interruptions falls back to
+   detecting short acknowledgement tokens ("yeah", "k", "correct"...)
+   appearing mid-turn as evidence of run-together speech. Both are honest
+   approximations, not measurements, and say so in `detail`.
+
 ## Architecture rule — the adapter boundary
 
 **Nothing outside `src/adapters/` may know about external formats.**
@@ -145,15 +172,23 @@ around it.
 
 These are scored. Do not deviate.
 
-1. **Three outcomes per check**, never two: `PASS`, `FAIL`, `LOW_CONFIDENCE`.
+1. **Four outcomes per check**: `PASS`, `FAIL`, `LOW_CONFIDENCE`, and
+   `NOT_APPLICABLE` (the check cannot be evaluated with the data supplied —
+   e.g. a duration-based check against a no-audio, estimated-timing
+   transcript). `NOT_APPLICABLE` on a **critical** check routes to a human
+   exactly like `LOW_CONFIDENCE`. On a **non-critical** check it is excluded
+   from scoring and shown as "not evaluable with supplied data" — it must
+   never silently block `AUTO_SUBMIT` on its own.
 2. **Gate precedence**, in this exact order:
    ```
-   any critical FAIL        → HELD          (TL queue)
-   elif any LOW_CONFIDENCE  → QA_REVIEW     (QA queue)
-   elif sampled             → AUTO_SUBMIT + QA sample copy
-   else                     → AUTO_SUBMIT
+   any critical FAIL or critical NOT_APPLICABLE   → HELD          (TL queue)
+   elif any LOW_CONFIDENCE                        → QA_REVIEW     (QA queue)
+   elif sampled                                   → AUTO_SUBMIT + QA sample copy
+   else                                            → AUTO_SUBMIT
    ```
-   A sampled sale **still submits**. Sampling never holds a sale.
+   Non-critical `NOT_APPLICABLE` checks are excluded from scoring entirely —
+   they never appear in this precedence chain. A sampled sale **still
+   submits**. Sampling never holds a sale.
 3. **The 5% sample is deterministic**, by hashing the lead_id — never `random`.
    Same lead, same outcome, every run.
 4. **Checks resolve by call date**: `effective_from <= call_date < effective_to`.
@@ -175,7 +210,7 @@ cimet-qa/
 ├── CLAUDE.md  PLAN.md  PLAN-BUILDDAY.md  SCHEMA.md  SYNTHETIC-DATA.md
 ├── README.md                # written in the final phase
 ├── requirements.txt
-├── .env                     # DEEPGRAM_API_KEY, ANTHROPIC_API_KEY (gitignored)
+├── .env                     # DEEPGRAM_API_KEY, GROQ_API_KEY (gitignored)
 ├── data/
 │   ├── synthetic/           # generated dummy data
 │   ├── cimet/               # real CIMET data, build day only

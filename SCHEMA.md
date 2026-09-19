@@ -25,7 +25,7 @@ from datetime import date, datetime
 from typing import Any, Literal, Optional
 
 CheckType  = Literal["A", "B", "C"]          # verbatim | factual | behaviour
-Status     = Literal["PASS", "FAIL", "LOW_CONFIDENCE"]
+Status     = Literal["PASS", "FAIL", "LOW_CONFIDENCE", "NOT_APPLICABLE"]
 GateStatus = Literal["AUTO_SUBMIT", "HELD", "QA_REVIEW"]
 
 
@@ -150,6 +150,12 @@ class CheckResult:
     actual: Optional[str] = None
     detail: str = ""                  # short human reason, shown in the UI
     asr_confidence: Optional[float] = None   # min word conf in matched span
+    # No-audio (estimated) timing -- mutually exclusive with start_ts/end_ts.
+    # Populated instead of them when the source transcript has no measured
+    # timing, so a UI can never mistake an estimate for a measurement.
+    line_number: Optional[int] = None
+    estimated_ts: Optional[float] = None
+    estimated_end_ts: Optional[float] = None
     scored_at: datetime = field(default_factory=datetime.utcnow)
 
 
@@ -327,7 +333,11 @@ WHERE retailer_id = ?
 
 ```python
 def gate(results: list[CheckResult], lead_id: str) -> Decision:
-    if any(r.is_critical and r.status == "FAIL" for r in results):
+    # NOT_APPLICABLE on a critical check is treated exactly like a critical
+    # FAIL -- it's data we can't evaluate, not data that passed. Non-critical
+    # NOT_APPLICABLE results are excluded from scoring entirely upstream (in
+    # score_lead/the two-score calculation) and never reach this function.
+    if any(r.is_critical and r.status in ("FAIL", "NOT_APPLICABLE") for r in results):
         return Decision(..., gate_status="HELD", ...)
     if any(r.status == "LOW_CONFIDENCE" for r in results):
         return Decision(..., gate_status="QA_REVIEW", ...)

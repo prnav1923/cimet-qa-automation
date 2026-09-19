@@ -1,0 +1,16 @@
+[
+  {
+    "lead_id": "CIMET_REAL_CALL",
+    "retailer_id": "CIMET_REAL",
+    "call_date": "2026-01-01",
+    "agent_id": "UNKNOWN",
+    "campaign": "UNKNOWN",
+    "team_lead_id": "UNKNOWN",
+    "transcript_path": "call-transcript-redacted.json",
+    "crm_fields": {},
+    "provenance": {
+      "call_date": "unknown -- CIMET's supplied transcript carries no call metadata, placeholder used",
+      "recording_path": "no audio supplied -- transcript-only source, see load_transcript.py"
+    }
+  }
+]

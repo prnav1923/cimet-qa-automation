@@ -32,10 +32,14 @@ def load_leads(path: str) -> list[Lead]:
     leads = []
     for row in rows:
         lead_id = row["lead_id"]
-        transcript_path = base / "transcripts" / f"{lead_id}.json"
+        # transcript_path lets a lead row point at a transcript that doesn't
+        # follow the transcripts/<lead_id>.json convention (e.g. CIMET's real
+        # supplied transcript, which lives beside the lead file by itself).
+        transcript_rel = row.get("transcript_path", f"transcripts/{lead_id}.json")
+        transcript_path = base / transcript_rel
         transcript = load_transcript(str(transcript_path)) if transcript_path.exists() else None
 
-        provenance = {}
+        provenance = dict(row.get("provenance", {}))
         plan = plans_by_id.get(row.get("plan_id"))
         if plan is None and row.get("plan_id"):
             plan = {}
